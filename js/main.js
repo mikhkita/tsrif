@@ -1,3 +1,7 @@
+    var isDesktop = false,
+        isTablet = false,
+        isMobile = false;
+
 $(document).ready(function(){	
     function resize(){
        if( typeof( window.innerWidth ) == 'number' ) {
@@ -11,6 +15,21 @@ $(document).ready(function(){
             myWidth = document.body.clientWidth;
             myHeight = document.body.clientHeight;
         }
+
+        if( myWidth > 1024 ){
+            isDesktop = true;
+            isTablet = false;
+            isMobile = false;
+        }else if( myWidth > 767 && myWidth < 1023 ){
+            isDesktop = false;
+            isTablet = true;
+            isMobile = false;
+        }else{
+            isDesktop = false;
+            isTablet = false;
+            isMobile = true;
+        }
+
     }
     $(window).resize(resize);
     resize();
@@ -49,6 +68,8 @@ $(document).ready(function(){
         $('#'+tab).removeClass('hide');
     });
 
+
+
     $('.b-tab').on('click', function(){
         var tab = $(this).attr('data-tab');
         $(this).parent().siblings().addClass('hide');
@@ -60,6 +81,15 @@ $(document).ready(function(){
              $('#'+tab).removeClass('hide');
         }
     });
+
+    $('.b-tabs-select select').on('change',function(){
+        var tab = $(this).val();
+        $(this).parent().parent().siblings().addClass('hide');
+        if ($('#'+tab).hasClass('hide')) {
+            $('#'+tab).removeClass('hide');
+        }
+    })
+
 
     $('.b-tabs-container').each(function(){
         containerWidth = $(this).width();
@@ -77,6 +107,7 @@ $(document).ready(function(){
 
     $('.b-filter-item select').styler();
     $('.detail-select-block select').styler();
+    $('.b-tabs-select select').styler();
 
     $('.filter-icon').on('click', function(){
         $(this).siblings().removeClass('active');
@@ -138,6 +169,35 @@ $(document).ready(function(){
         touchThreshold: 100,
         variableWidth: true,
     });
+
+    $('.b-gallery-preview .b-1-by-3-container').slick({
+        dots: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        cssEase: 'ease', 
+        speed: 500,
+        autoplay: true,
+        arrows: false,
+        touchThreshold: 100,
+        responsive: [
+            {
+              breakpoint: 600,
+              settings: {
+                centerMode: true,
+                centerPadding: "40px",
+                slidesToShow: 1
+              },
+              breakpoint: 500,
+              settings: {
+                centerMode: true,
+                centerPadding: "30px",
+                slidesToShow: 1
+              }
+            },
+        ]
+    });
+
 
     // // Первая анимация элементов в слайде
     // $(".b-step-slide[data-slick-index='0'] .slider-anim").addClass("show");

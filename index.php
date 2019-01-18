@@ -1,136 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta name="keywords" content=''>
-	<meta name="description" content=''>
+<?include ('header.php');?>
 
-	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
-	<meta name="format-detection" content="telephone=no">
-
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="css/reset.css" type="text/css">
-	<link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
-	<link rel="stylesheet" href="css/KitAnimate.css" type="text/css">
-	<link rel="stylesheet" href="css/layout.css" type="text/css">
-	<link rel="stylesheet" href="css/slick.css" type="text/css">
-	<!-- <link rel="stylesheet" href="css/jquery.formstyler.css" type="text/css"> -->
-	
-
-	<link rel="stylesheet" media="screen and (min-width: 240px) and (max-width: 1023px)" href="css/layout-tablet.css">
-	<link rel="stylesheet" media="screen and (min-width: 240px) and (max-width: 767px)" href="css/layout-mobile.css">
-	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
-
-	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
-</head>
-<body>
-<div id="mobile-menu" class="mobile-menu hide">
-	<ul>
-		<h2 class="b-title">Меню</h2>
-		<li><a href="index.html" class="active">Главная</a></li>
-		<li><a href="services.html">Услуги и продукты</a></li>
-		<li><a href="about.html">О компании</a></li>
-		<li><a href="cooperation.html">Сотрудничество</a></li>
-		<li><a href="documents.html">Документация</a></li>
-		<li><a href="contacts.html" class="contact-info">Контакты</a></li>
-	</ul>
-	<div class="social-icons">
-		<a href="#" class="icon-facebook"></a>
-		<a href="#" class="icon-vk"></a>
-		<a href="#" class="icon-instagram"></a>
-	</div>
-</div>
-<div id="panel-page">
-	<div class="b-top-content clearfix">
-		<div class="b-block">
-			<div class="b-top-content-block b-top-city">
-				<a href="#" class="dashed bold">Москва</a>
-				<p>25 пунктов выдачи</p>
-			</div>
-			<div class="b-top-content-block b-top-schedule">
-				<p class="icon-clock">пн-пт: с 10:00 до 19:00, сб: с 10:00 до 18:00, вс – выходной</p>
-			</div>
-			<div class="b-top-content-block b-top-auth">
-				<a href="#" class="icon-rub bold">Купить оптом</a>
-				<a href="#" class="dashed">Войти</a>
-			</div>
-		</div>
-	</div>
-	<div class="b-header wave wave-right-to-left-bottom">
-		<div class="b-block">
-			<div class="b-header-block clearfix">
-				<a href="#" class="b-logo"></a>
-				<div class="b-menu-container">
-					<ul class="b-menu">
-						<li><a href="#">Доставка и оплата</a></li>
-						<li><a href="#">Помощь</a></li>
-						<li><a href="#">Контакты</a></li>
-						<li class="icon-discount"><a href="#" class="pink">Акции и скидки</a></li>
-					</ul>
-				</div>
-				<div class="b-phone clearfix">
-					<a href="#" class="phone">+7 (495) 922-50-55</a>
-					<a href="#" class="pink dashed">Заказать звонок</a>
-				</div>
-			</div>
-			<div class="b-header-block pink-header-block clearfix">
-				<a href="#" class="b-catalog-menu icon-list">Каталог товаров</a>
-				<form action="#" class="b-search-form">
-					<div class="b-search-input icon-search">
-						<input type="text" id="title-search-input" placeholder="Поиск по 7000 товаров" name="q" autocomplete="off" class="">
-					</div>
-					<input type="submit" class="b-search-submit" value="">
-				</form>
-				<a href="#" class="dashed">Задать вопрос</a>
-				<div class="b-cart">
-					<div class="b-cart-img icon-cart"></div>
-					<div class="b-cart-text">
-						<p class="cart-count">5 шт.</p>
-						<p class="cart-sum icon-rub">15 800</p>
-					</div>
-				</div>
-			</div>
-			<div class="b-header-block">
-				<ul class="b-header-categories b-header-categories-top">
-					<li><a href="#">Мастика и марципан</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Ароматизаторы</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Ингредиенты</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Инвентарь</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Красители</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Молды и вайнеры</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Пищевая печать</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Украшения</a></li>
-				</ul>
-				<ul class="b-header-categories b-header-categories-bottom">
-					<li><a href="#" class="pink">Новинки</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Формы</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Шоколад</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Подставки</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Глазурь</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Упаковка</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Для работы с кремом</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Я хочу приготовить</a></li>
-					<li class="list-dot"></li>
-					<li><a href="#">Еще…</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
 	<div class="b-banners">
 		<div class="b-block">
 			<div class="b-banner b-banner-1">
@@ -490,7 +359,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="b-news-preview wave wave-left-to-right-top">
+	<div class="b-news-preview wave-top wave-bottom">
 		<div class="b-block">
 			<div class="b-big-tabs clearfix">
 				<h2>Новости магазина</h2>
@@ -540,7 +409,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="b-daily-product wave wave-left-to-right-bottom">
+	<div class="b-daily-product">
 		<div class="b-block">
 			<div class="b-two-blocks">
 				<div class="b-block-1 b-two-blocks-item">
@@ -598,7 +467,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="b-tabs b-catalog-tabs wave wave-right-to-left-top">
+	<div class="b-tabs b-catalog-tabs wave-top">
 		<div class="b-block">
 			<div class="b-tabs-container b-tabs-container-underline">
 				<div class="b-tab active" data-tab="gingerbreads">Для пряников</div>
@@ -609,6 +478,18 @@
 				<div class="b-tab" data-tab="cupcakes">Для капкейков</div>
 				<div class="b-tab" data-tab="makaron">Для макарун</div>
 			</div>
+			<div class="b-tabs-select b-mobile-only">
+				<p><b>Категория:</b></p>
+				<select name="b-tab-select">
+					<option value="gingerbreads">Для пряников</option>
+					<option value="candies">Для конфет</option>
+					<option value="cakepops">Для кейкпопсов</option>
+					<option value="chocolates">Для шоколада</option>
+					<option value="cookies">Для печенья</option>
+					<option value="cupcakes">Для капкейков</option>
+					<option value="makaron">Для макарун</option>
+				</select>
+			</div>
 			<div class="b-tab-item" id="gingerbreads">
 				<div class="b-tabs-container b-tabs-container-dashed">
 					<div class="b-tab active" data-tab="gingerbreads-chocolate">Шоколад</div>
@@ -618,6 +499,18 @@
 					<div class="b-tab" data-tab="gingerbreads-capsules">Капсулы бумажные</div>
 					<div class="b-tab" data-tab="gingerbreads-forms">Формы для выпечки</div>
 					<div class="b-tab" data-tab="gingerbreads-pack">Упаковка</div>
+				</div>
+				<div class="b-tabs-select b-mobile-only">
+					<p><b>Подкатегория:</b></p>
+					<select name="tab-select">
+						<option value="gingerbreads-chocolate">Шоколад</option>
+						<option value="gingerbreads-mixes">Сухие смеси</option>
+						<option value="gingerbreads-dyes">Красители</option>
+						<option value="gingerbreads-tools">Инструмент</option>
+						<option value="gingerbreads-capsules">Капсулы бумажные</option>
+						<option value="gingerbreads-forms">Формы для выпечки</option>
+						<option value="gingerbreads-pack">Упаковка</option>
+					</select>
 				</div>
 				<div class="b-tab-item b-catalog-list" id="gingerbreads-chocolate">
 					<div class="b-catalog-item discount-item">
@@ -943,7 +836,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="b-gallery-preview wave wave-right-to-left-bottom">
+	<div class="b-gallery-preview wave-top wave-bottom">
 		<div class="b-block">
 			<div class="b-1-by-3-blocks">
 				<div class="b-block-1">
@@ -981,6 +874,17 @@
 				<div class="b-tab" data-tab="colors">Красители</div>
 				<div class="b-tab" data-tab="brands">Бренды</div>
 				<div class="b-tab" data-tab="forms">Формы</div>
+			</div>
+			<div class="b-tabs-select b-mobile-only">
+				<p><b>Категория:</b></p>
+				<select name="b-tab-select">
+					<option value="about">О магазине</div>
+					<option value="inventory">Инвентарь</div>
+					<option value="regs">Ингредиенты</div>
+					<option value="colors">Красители</div>
+					<option value="brands">Бренды</div>
+					<option value="forms">Формы</div>
+				</select>
 			</div>
 			<div class="b-tab-item b-tab-about" id="about">
 				<div class="b-2-by-1-blocks">
@@ -1033,104 +937,5 @@
 			</form>
 		</div>
 	</div>
-	<div class="b-footer wave wave-left-to-right-top">
-		<div class="b-block">
-			<div class="b-bottom-menu">
-				<div class="b-bottom-menu-list">
-					<h4>О компании</h4>
-					<ul>
-						<li><a href="#" class="underline">О нас</a></li>
-						<li><a href="#" class="underline">Новости магазина</a></li>
-						<li><a href="#" class="underline">Сертификаты</a></li>
-						<li><a href="#" class="underline">Преимущества</a></li>
-						<li><a href="#" class="underline">Вакансии</a></li>
-						<li><a href="#" class="underline">Блог</a></li>
-					</ul>
-				</div>
-				<div class="b-bottom-menu-list">
-					<h4>Покупателям</h4>
-					<ul>
-						<li><a href="#" class="underline">Акции и скидки</a></li>
-						<li><a href="#" class="underline">Доставка и оплата</a></li>
-						<li><a href="#" class="underline">Как сделать заказ</a></li>
-						<li><a href="#" class="underline">Возврат без затрат</a></li>
-						<li><a href="#" class="underline">Вопросы и ответы</a></li>
-						<li><a href="#" class="underline">Контакты и реквизиты</a></li>
-					</ul>
-				</div>
-				<div class="b-bottom-menu-list">
-					<h4>Сотрудничество</h4>
-					<ul>
-						<li><a href="#" class="underline">Поставщикам</a></li>
-						<li><a href="#" class="underline">Партнеры</a></li>
-						<li><a href="#" class="underline">Франшиза</a></li>
-					</ul>
-				</div>
-				<div class="b-bottom-menu-list">
-					<h4>Следуйте за нами</h4>
-					<div class="b-soc">
-						<a href="http://vk.com" target="_blank" class="b-soc-item icon-vk"></a>
-						<a href="http://facebook.com" target="_blank" class="b-soc-item icon-facebook"></a>
-						<a href="http://instagram.com" target="_blank" class="b-soc-item icon-instagram"></a>
-					</div>
-				</div>
-			</div>
-			<div class="b-underfooter">
-				<div class="b-underfooter-item left-underfooter-item">
-					© 2002–2018 <a href="1KONDITER.RU" target="_blank" class="underline underfooter-link">1KONDITER.RU</a> – Первый магазин для кондитеров.<br>
-					Все права защищены. Доставка по всей России!
-				</div>
-				<div class="b-underfooter-item">
-					<a href="#" class="underline politics-link">Политика конфиденциальности</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- <div class="b-menu-overlay" id="b-menu-overlay" style="display: none;"></div> -->
-</div>
-	<div style="display:none;">
-		<a href="#b-popup-error" class="b-error-link fancy" style="display:none;"></a>
-		<div class="b-popup" id="b-popup-1">
-			<h3>Оставьте заявку</h3>
-			<h4>и наши специалисты<br>свяжутся с Вами в ближайшее время</h4>
-			<form action="kitsend.php" data-goal="CALLBACK" method="POST" id="b-form-1">
-				<div class="b-popup-form">
-					<label for="name">Введите Ваше имя</label>
-					<input type="text" id="name" name="name" required/>
-					<label for="tel">Введите Ваш номер телефона</label>
-					<input type="text" id="tel" name="phone" required/>
-					<label for="tel">Введите Ваш E-mail</label>
-					<input type="text" id="tel" name="email" required/>
-					<input type="hidden" name="subject" value="Заказ"/>
-					<input type="submit" style="display:none;">
-					<a href="#" class="b-btn b-blue-btn ajax">Заказать</a>
-					<a href="#b-popup-success" class="b-thanks-link fancy" style="display:none;"></a>
-				</div>
-			</form>
-		</div>
-		<div class="b-thanks b-popup" id="b-popup-success">
-			<h3>Спасибо!</h3>
-			<h4>Ваша заявка успешно отправлена.<br/>Наш менеджер свяжется с Вами в течение часа.</h4>
-			<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
-		</div>
-		<div class="b-thanks b-popup" id="b-popup-error">
-			<h3>Ошибка отправки!</h3>
-			<h4>Приносим свои извинения. Пожалуйста, попробуйте отправить Вашу заявку позже.</h4>
-			<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
-		</div>
-	</div>
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
-	<script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
-	<!-- <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false&key=AIzaSyD6Sy5r7sWQAelSn-4mu2JtVptFkEQ03YI"></script> -->
-	<script type="text/javascript" src="js/jquery.touch.min.js"></script>
-	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="js/KitAnimate.js"></script>
-	<script type="text/javascript" src="js/slideout.min.js"></script>
-	<script type="text/javascript" src="js/KitSend.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/slick.js"></script>
-</body>
-</html>
+	
+<?include ('footer.php');?>
