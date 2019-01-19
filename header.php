@@ -59,7 +59,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				<p class="icon-clock">пн-пт: с 10:00 до 19:00, сб: с 10:00 до 18:00, вс – выходной</p>
 			</div>
 			<div class="b-top-content-block b-top-auth">
-				<a href="#" class="icon-rub"><b>Купить оптом</b></a>
+				<a href="#" class="icon-rub-round"><b>Купить оптом</b></a>
 				<a href="#" class="dashed">Войти</a>
 			</div>
 		</div>
@@ -73,7 +73,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 						<li><a href="#">Доставка и оплата</a></li>
 						<li><a href="#">Помощь</a></li>
 						<li><a href="#">Контакты</a></li>
-						<li class="icon-discount"><a href="#" class="pink">Акции и скидки</a></li>
+						<li><a href="#" class="pink icon-discount">Акции и скидки</a></li>
 					</ul>
 				</div>
 				<div class="b-phone clearfix">
