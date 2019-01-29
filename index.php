@@ -21,16 +21,20 @@
 	<div class="b-catalog-preview">
 		<div class="b-block">
 			<div class="b-big-tabs clearfix">
-				<h2 class="" data-tab="catalog-new">Новинки</h2>
-				<h2 class="deactive" data-tab="catalog-lead">Лидеры продаж</h2>
-				<a href="#" class="underline icon-arrow">Смотреть все</a>
+				<div class="b-big-tab-container">
+					<h2 class="" data-tab="catalog-new">Новинки</h2>
+				</div>
+				<div class="b-big-tab-container">
+					<h2 class="deactive" data-tab="catalog-lead">Лидеры продаж</h2>
+				</div>
+				<div class="b-big-tab-container tab-link clearfix">
+					<a href="#" class="underline icon-arrow">Смотреть все</a>
+				</div>
 			</div>
 			<div class="b-catalog-list" id="catalog-new">
 				<div class="b-catalog-item">
 					<div class="b-catalog-back"></div>
-					<div class="b-catalog-img" style="background-image:url('i/catalog-item-1.jpg');">
-						<!-- <img src="i/catalog-item-1.jpg"> -->
-					</div>
+					<div class="b-catalog-img" style="background-image:url('i/catalog-item-1.jpg');"></div>
 					<div class="b-catalog-item-top">
 						<h6>Силиконовая форма Multiflex ЕЖЕВИКА и МАЛИНА 3D Mora Lampone Silikomart</h6>
 						<p class="article">Арт. 4023</p>
@@ -513,31 +517,10 @@
 					</select>
 				</div>
 				<div class="b-tab-item b-catalog-list" id="gingerbreads-chocolate">
-					<div class="b-catalog-item discount-item">
-						<div class="b-catalog-back"></div>
-						<div class="b-catalog-img" style="background-image:url('i/catalog-item-8.jpg');">
-							<div class="catalog-item-discount icon-discount-full"><p>-15%</p></div>
-							<!-- <img src="i/catalog-item-8.jpg" alt=""> -->
-						</div>
-						<div class="b-catalog-item-top">
-							<h6>Силиконовая форма Tortaflex КРАСНЫЙ ШЛЕЙФ Kit Red Tail</h6>
-							<p class="article">Арт. 6000</p>
-						</div>
-						<div class="b-catalog-item-bottom">
-							<div class="price-container b-discount-price">
-								<p class="old-price icon-rub">2 700</p>
-								<p class="new-price pink icon-rub">2 300</p>
-							</div>
-							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
-						</div>
-					</div>
 					<div class="b-catalog-item">
 						<div class="b-catalog-back"></div>
-						<div class="b-catalog-img" style="background-image:url('i/catalog-item-1.jpg');">
-							<!-- <img src="i/catalog-item-1.jpg"> -->
+						<div class="b-catalog-img">
+							<img src="i/catalog-item-1.jpg" alt="">
 						</div>
 						<div class="b-catalog-item-top">
 							<h6>Силиконовая форма Multiflex ЕЖЕВИКА и МАЛИНА 3D Mora Lampone Silikomart</h6>
@@ -548,15 +531,15 @@
 								<p class="price icon-rub">250</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 					<div class="b-catalog-item">
 						<div class="b-catalog-back"></div>
-						<div class="b-catalog-img" style="background-image:url('i/catalog-item-2.jpg');">
-							<!-- <img src="i/catalog-item-2.jpg"> -->
+						<div class="b-catalog-img">
+							<img src="i/catalog-item-2.jpg" alt="">
 						</div>
 						<div class="b-catalog-item-top">
 							<h6>Силиконовая форма Multiflex ШИШКИ 3D 5 шт. Foresta110 Silikomart</h6>
@@ -567,15 +550,15 @@
 								<p class="price icon-rub">1 280</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 					<div class="b-catalog-item">
 						<div class="b-catalog-back"></div>
-						<div class="b-catalog-img" style="background-image:url('i/catalog-item-3.jpg');">
-							<!-- <img src="i/catalog-item-3.jpg"> -->
+						<div class="b-catalog-img">
+							<img src="i/catalog-item-3.jpg" alt="">
 						</div>
 						<div class="b-catalog-item-top">
 							<h6>Силиконовая форма Pavocake БОМБА 3D Bombee Pavoni</h6>
@@ -586,9 +569,28 @@
 								<p class="price icon-rub">850</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+					</div>
+					<div class="b-catalog-item">
+						<div class="b-catalog-back"></div>
+						<div class="b-catalog-img">
+							<img src="i/catalog-item-4.jpg" alt="">
+						</div>
+						<div class="b-catalog-item-top">
+							<h6>Силиконовая форма Pavocake САВАРЕН 3D Pavoni</h6>
+							<p class="article">Арт. 2301</p>
+						</div>
+						<div class="b-catalog-item-bottom">
+							<div class="price-container">
+								<p class="price icon-rub">650</p>
+							</div>
+							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -607,9 +609,9 @@
 								<p class="price icon-rub">650</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 					<div class="b-catalog-item">
@@ -626,9 +628,9 @@
 								<p class="price icon-rub">250</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 					<div class="b-catalog-item">
@@ -645,9 +647,9 @@
 								<p class="price icon-rub">1 280</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 					<div class="b-catalog-item">
@@ -664,9 +666,9 @@
 								<p class="price icon-rub">850</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -682,7 +684,7 @@
 					<div class="b-tab" data-tab="gingerbreads-forms">Формы для выпечки</div>
 					<div class="b-tab" data-tab="gingerbreads-pack">Упаковка</div>
 				</div>
-				<div class="b-tab-item" id="gingerbreads-chocolate">
+				<div class="b-tab-item b-catalog-list" id="gingerbreads-chocolate">
 					<div class="b-catalog-item">
 						<div class="b-catalog-back"></div>
 						<div class="b-catalog-img">
@@ -697,9 +699,9 @@
 								<p class="price icon-rub">250</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 					<div class="b-catalog-item">
@@ -716,9 +718,9 @@
 								<p class="price icon-rub">1 280</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 					<div class="b-catalog-item">
@@ -735,9 +737,9 @@
 								<p class="price icon-rub">850</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 					<div class="b-catalog-item">
@@ -754,9 +756,9 @@
 								<p class="price icon-rub">650</p>
 							</div>
 							<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-						</div>
-						<div class="b-one-click-buy">
-							<a href="#" class="dashed pink">Купить в один клик</a>
+							<div class="b-one-click-buy">
+								<a href="#" class="dashed pink">Купить в один клик</a>
+							</div>
 						</div>
 					</div>
 				</div>

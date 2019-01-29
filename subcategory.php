@@ -40,7 +40,7 @@
 							<div class="b-catalog-item-top">
 								<div class="b-category-item-back"></div>
 								<div class="b-category-item-outer">
-									<h6>Для работы с кремом</h6>
+									<h6>Столики поворотные</h6>
 									<p class="b-category-count icon-tick">(999)</p>
 								</div>
 								<div class="b-category-item-inner">
@@ -218,25 +218,6 @@
 						<div class="b-catalog-item">
 							<a href="#" class="item-link"></a>
 							<div class="b-catalog-back"></div>
-							<div class="b-catalog-img" style="background-image:url('i/catalog-item-1.jpg');"></div>
-							<div class="b-catalog-item-top">
-								<h6>Силиконовая форма Multiflex ЕЖЕВИКА и МАЛИНА 3D Mora Lampone Silikomart</h6>
-								<p class="article">Арт. 4023</p>
-								<p class="description">Мешок силиконовый, производство Китай. Предназначен для работы с кремом. Необходимо использования кондитерских насадок. </p>
-							</div>
-							<div class="b-catalog-item-bottom">
-								<div class="price-container">
-									<p class="price icon-rub">250</p>
-								</div>
-								<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-								<div class="b-one-click-buy">
-									<a href="#" class="dashed pink">Купить в один клик</a>
-								</div>
-							</div>
-						</div>
-						<div class="b-catalog-item">
-							<a href="#" class="item-link"></a>
-							<div class="b-catalog-back"></div>
 							<div class="b-catalog-img" style="background-image:url('i/catalog-item-2.jpg');"></div>
 							<div class="b-catalog-item-top">
 								<h6>Силиконовая форма Multiflex ШИШКИ 3D 5 шт. Foresta110 Silikomart</h6>
@@ -319,6 +300,25 @@
 							<div class="b-catalog-item-bottom">
 								<div class="price-container">
 									<p class="price icon-rub">2 130</p>
+								</div>
+								<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
+								<div class="b-one-click-buy">
+									<a href="#" class="dashed pink">Купить в один клик</a>
+								</div>
+							</div>
+						</div>
+						<div class="b-catalog-item">
+							<a href="#" class="item-link"></a>
+							<div class="b-catalog-back"></div>
+							<div class="b-catalog-img" style="background-image:url('i/catalog-item-1.jpg');"></div>
+							<div class="b-catalog-item-top">
+								<h6>Силиконовая форма Multiflex ЕЖЕВИКА и МАЛИНА 3D Mora Lampone Silikomart</h6>
+								<p class="article">Арт. 4023</p>
+								<p class="description">Мешок силиконовый, производство Китай. Предназначен для работы с кремом. Необходимо использования кондитерских насадок. </p>
+							</div>
+							<div class="b-catalog-item-bottom">
+								<div class="price-container">
+									<p class="price icon-rub">250</p>
 								</div>
 								<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
 								<div class="b-one-click-buy">

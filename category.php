@@ -182,7 +182,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="b-daily-product">
+	<div class="b-daily-product b-category-daily-product">
 		<div class="b-block">
 			<div class="b-two-blocks">
 				<div class="b-block-1 b-two-blocks-item">
@@ -221,44 +221,49 @@
 	<div class="b-catalog-preview b-category-catalog-preview wave-bottom">
 		<div class="b-block">
 			<div class="b-filter">
-				<div class="b-filter-item b-filter-type">
-					<p><b>Сортировать по:</b></p>
-					<div class="b-filter-select">
-						<select name="type">
-							<option value="popular">Популярности</option>
-							<option value="ASC">Алфавиту</option>
-							<option value="DESC">Возрастанию цены</option>
-						</select>
+				<div class="b-filter-container">
+					<div class="b-filter-item b-filter-type">
+						<p><b>Сортировать по:</b></p>
+						<div class="b-filter-select">
+							<select name="type">
+								<option value="popular">Популярности</option>
+								<option value="ASC">Алфавиту</option>
+								<option value="DESC">Возрастанию цены</option>
+							</select>
+						</div>
+					</div>
+					<div class="b-filter-item b-filter-discount">
+						<label class="checkbox">
+						  <input type="checkbox" value="discount">
+						  <span>Только со скидкой</span>
+						</label>
+					</div>
+					<div class="b-filter-item b-filter-wholesale">
+						<label class="checkbox">
+						  <input type="checkbox" value="discount">
+						  <span>Купить оптом</span>
+						</label>
 					</div>
 				</div>
-				<div class="b-filter-item b-filter-discount">
-					<label class="checkbox">
-					  <input type="checkbox" value="discount">
-					  <span>Только со скидкой</span>
-					</label>
-				</div>
-				<div class="b-filter-item b-filter-wholesale">
-					<label class="checkbox">
-					  <input type="checkbox" value="discount">
-					  <span>Купить оптом</span>
-					</label>
-				</div>
-				<div class="b-filter-item b-filter-count">
-					<p><b>Показывать по:</b></p>
-					<div class="b-filter-select">
-						<select name="type">
-							<option value="50">50</option>
-							<option value="100">100</option>
-							<option value="200">200</option>
-						</select>
+				<div class="b-filter-container">
+					<div class="b-filter-item b-filter-count">
+						<p><b>Показывать по:</b></p>
+						<div class="b-filter-select">
+							<select name="type">
+								<option value="50">50</option>
+								<option value="100">100</option>
+								<option value="200">200</option>
+							</select>
+						</div>
 					</div>
-				</div>
-				<div class="b-filter-item b-filter-view">
-					<a href="#" class="filter-icon icon-filter-1 active" data-style="big-tile"></a>
-					<a href="#" class="filter-icon icon-filter-2" data-style="small-tile"></a>
-					<a href="#" class="filter-icon icon-list" data-style="list"></a>
+					<div class="b-filter-item b-filter-view">
+						<a href="#" class="filter-icon icon-filter-1 active" data-style="big-tile"></a>
+						<a href="#" class="filter-icon icon-filter-2" data-style="small-tile"></a>
+						<a href="#" class="filter-icon icon-list" data-style="list"></a>
+					</div>
 				</div>
 			</div>
+			
 			<div class="b-catalog-list">
 				<div class="b-catalog-item">
 					<div class="b-catalog-back"></div>
@@ -457,7 +462,7 @@
 			</div>
 			<div class="b-tab-item b-tab-about" id="about">
 				<p>Самый большой интернет-магазин кондитерского инвентаря и ингредиентов. Мы предлагаем только то, что используем сами. В каталоге нашего магазина вы найдете товары для профессионалов и для домашней выпечки.<br><br>
-				Самый большой интернет-магазин кондитерского инвентаря и ингредиентов. Мы предлагаем только то, что используем сами. В каталоге нашего магазина вы найдете товары для профессионалов и для домашней выпечки. Самый большой интернет-магазин кондитерского инвентаря и ингредиентов.</p>
+				Самый большой интернет-магазин кондитерского инвентаря и ингредиентов. Мы предлагаем только то, что используем сами. В каталоге нашего магазина вы найдете товары для профессионалов и для домашней выпечки. Самый большой интернет-магазин кондитерского инвентаря и ингредиентов. Инвентаря и ингредиентов.</p>
 			</div>
 		</div>
 	</div>

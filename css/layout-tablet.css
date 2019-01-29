@@ -7,4 +7,7 @@ body {
 	.b-block{
 		max-width: 736px;
 	}
+	.jq-selectbox__select{
+		min-width: 200px;
+	}
 }

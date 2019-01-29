@@ -62,13 +62,11 @@ $(document).ready(function(){
 
     $('.b-catalog-preview .b-big-tabs h2').on('click', function(){
         var tab = $(this).attr('data-tab');
-        $(this).siblings().addClass('deactive');
+        $(this).parent().siblings().find('h2').addClass('deactive');
         $(this).removeClass('deactive');
         $('.b-catalog-preview .b-catalog-list').addClass('hide');
         $('#'+tab).removeClass('hide');
     });
-
-
 
     $('.b-tab').on('click', function(){
         var tab = $(this).attr('data-tab');
@@ -89,7 +87,6 @@ $(document).ready(function(){
             $('#'+tab).removeClass('hide');
         }
     })
-
 
     $('.b-tabs-container').each(function(){
         containerWidth = $(this).width();
@@ -120,6 +117,58 @@ $(document).ready(function(){
         return false;
     });
 
+    // $('.b-category-item-outer').accordion({
+    //     header: 'h6',
+    // });
+
+    /****************Slideout********************/
+
+    var menuSlideout = new Slideout({
+        'panel': document.getElementById('panel-page'),
+        'menu': document.getElementById('mobile-menu'),
+        'side': 'left',
+        'padding': 316,
+        'touch': false
+    });
+
+    $('.mobile-menu').removeClass("hide");
+
+    $('.burger-menu').click(function() {
+        menuSlideout.open();
+        $('.mobile-menu').show();
+        $(".b-menu-overlay").show();
+        return false;
+    });
+
+    $('.b-menu-overlay').click(function() {
+        menuSlideout.close();
+        $('.b-menu-overlay').hide();
+        return false;
+    });
+
+    menuSlideout.on('open', function() {
+        $('.mobile-menu').removeClass("hide");
+        $('.burger-menu').addClass("menu-on");
+        $(".b-menu-overlay").show();
+    });
+
+    menuSlideout.on('close', function() {
+        setTimeout(function(){
+            $("body").unbind("touchmove");
+            $(".b-menu-overlay").hide();
+        },100);
+    });
+
+    var e = $('.b-menu-overlay, .mobile-menu');
+
+    e.touch();
+
+    e.on('swipeLeft', function(event) {
+        menuSlideout.close();
+    });
+
+    /****************Slideout********************/
+
     $(".b-catalog-slider").slick({
         dots: false,
         slidesToShow: 4,
@@ -136,6 +185,18 @@ $(document).ready(function(){
               breakpoint: 1150,
               settings: {
                 slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 960,
+              settings: {
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1
               }
             },
         ]
@@ -183,12 +244,6 @@ $(document).ready(function(){
         responsive: [
             {
               breakpoint: 600,
-              settings: {
-                centerMode: true,
-                centerPadding: "40px",
-                slidesToShow: 1
-              },
-              breakpoint: 500,
               settings: {
                 centerMode: true,
                 centerPadding: "30px",

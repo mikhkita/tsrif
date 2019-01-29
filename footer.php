@@ -51,7 +51,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div class="b-menu-overlay" id="b-menu-overlay" style="display: none;"></div> -->
+	<div class="b-menu-overlay" id="b-menu-overlay" style="display: none;"></div>
 </div>
 	<div style="display:none;">
 		<a href="#b-popup-error" class="b-error-link fancy" style="display:none;"></a>
@@ -94,8 +94,9 @@
 	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/KitAnimate.js"></script>
 	<script type="text/javascript" src="js/slideout.min.js"></script>
+	<script type="text/javascript" src="js/mask.js"></script>
 	<script type="text/javascript" src="js/KitSend.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/slick.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
