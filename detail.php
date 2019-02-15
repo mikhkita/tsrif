@@ -31,12 +31,23 @@
 				<h3>Силиконовая форма Multiflex ШИШКИ 3D 5 шт. Foresta110 Silikomart</h3>
 				<div class="b-detail-bonus-container">
 					<div class="b-detail-bonus green-bonus">-5% при оплате онлайн</div>
-					<div class="b-detail-bonus purple-bonus bonus-with-add icon-info">Вернем 50% от стоимости доставки<div class="b-detail-bonus-add">Возврат осуществляется в случае жопы</div></div>
+					<div class="b-detail-bonus purple-bonus bonus-with-add icon-info">Вернем 50% от стоимости доставки<div class="b-detail-bonus-add">Возврат осуществляется в случае</div></div>
+				</div>
+				<div class="b-detail-top-slider b-detail-mobile-slider">
+					<div class="b-detail-big-pic" style="background-image: url('i/catalog-item-1.jpg');"></div>
+					<div class="b-detail-big-pic" style="background-image: url('i/catalog-item-2.jpg');"></div>
+					<div class="b-detail-big-pic" style="background-image: url('i/catalog-item-3.jpg');"></div>
+					<div class="b-detail-big-pic" style="background-image: url('i/catalog-item-4.jpg');"></div>
+					<div class="b-detail-big-pic" style="background-image: url('i/catalog-item-5.jpg');"></div>
+					<div class="b-detail-big-pic" style="background-image: url('i/catalog-item-3.jpg');"></div>
 				</div>
 				<div class="detail-price-container">
 					<div class="price-container b-discount-price">
 						<p class="old-price icon-rub">1 600</p>
 						<p class="new-price pink icon-rub">1 280</p>
+						<div class="cheaper-mobile">
+							<a href="#" class="pink dashed">Купить этот товар дешевле</a>
+						</div>
 						<p class="app-price">Эксклюзивные цены в <a href="#" class="pink dashed">приложении</a></p>
 					</div>
 					<div class="b-detail-discount">
@@ -65,6 +76,9 @@
 						<a href="#" class="icon-plus"></a>
 						<p class="bold">2</p>
 						<a href="#" class="icon-minus"></a>
+					</div>
+					<div class="b-detail-buy b-detail-buy-mobile">
+						<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
 					</div>
 					<a href="#" class="pink dashed cheaper">Купить этот товар дешевле</a>
 				</div>

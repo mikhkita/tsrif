@@ -162,184 +162,181 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="b-catalog-preview b-subcategory-catalog-preview wave-bottom">
-		<div class="b-block">
-			<div class="b-1-by-3-blocks">
-				<div class="b-block-1"></div>
-				<div class="b-block-2">
-					<div class="b-filter">
-						<div class="b-filter-container">
-							<div class="b-filter-item b-filter-type">
-								<p><b>Сортировать по:</b></p>
-								<div class="b-filter-select">
-									<select name="type">
-										<option value="popular">Популярности</option>
-										<option value="ASC">Алфавиту</option>
-										<option value="DESC">Возрастанию цены</option>
-									</select>
+					<div class="b-catalog-preview b-subcategory-catalog-preview">
+						<div class="b-filter">
+							<div class="b-filter-container">
+								<div class="b-filter-item b-filter-type">
+									<p><b>Сортировать по:</b></p>
+									<div class="b-filter-select">
+										<select name="type">
+											<option value="popular">Популярности</option>
+											<option value="ASC">Алфавиту</option>
+											<option value="DESC">Возрастанию цены</option>
+										</select>
+									</div>
+								</div>
+								<div class="b-filter-item b-filter-discount">
+									<label class="checkbox">
+									  <input type="checkbox" value="discount">
+									  <span>Только со скидкой</span>
+									</label>
+								</div>
+								<div class="b-filter-item b-filter-wholesale">
+									<label class="checkbox">
+									  <input type="checkbox" value="discount">
+									  <span>Купить оптом</span>
+									</label>
 								</div>
 							</div>
-							<div class="b-filter-item b-filter-discount">
-								<label class="checkbox">
-								  <input type="checkbox" value="discount">
-								  <span>Только со скидкой</span>
-								</label>
-							</div>
-							<div class="b-filter-item b-filter-wholesale">
-								<label class="checkbox">
-								  <input type="checkbox" value="discount">
-								  <span>Купить оптом</span>
-								</label>
-							</div>
-						</div>
-						<div class="b-filter-container">
-							<div class="b-filter-item b-filter-count">
-								<p><b>Показывать по:</b></p>
-								<div class="b-filter-select">
-									<select name="type">
-										<option value="50">50</option>
-										<option value="100">100</option>
-										<option value="200">200</option>
-									</select>
+							<div class="b-filter-container">
+								<div class="b-filter-item b-filter-count">
+									<p><b>Показывать по:</b></p>
+									<div class="b-filter-select">
+										<select name="type">
+											<option value="50">50</option>
+											<option value="100">100</option>
+											<option value="200">200</option>
+										</select>
+									</div>
 								</div>
-							</div>
-							<div class="b-filter-item b-filter-view">
-								<a href="#" class="filter-icon icon-filter-1 active" data-style="big-tile"></a>
-								<a href="#" class="filter-icon icon-filter-2" data-style="small-tile"></a>
-								<a href="#" class="filter-icon icon-list" data-style="list"></a>
-							</div>
-						</div>
-					</div>
-					<div class="b-catalog-list">
-						<div class="b-catalog-item">
-							<a href="#" class="item-link"></a>
-							<div class="b-catalog-back"></div>
-							<div class="b-catalog-img" style="background-image:url('i/catalog-item-2.jpg');"></div>
-							<div class="b-catalog-item-top">
-								<h6>Силиконовая форма Multiflex ШИШКИ 3D 5 шт. Foresta110 Silikomart</h6>
-								<p class="article">Арт. 8340</p>
-							</div>
-							<div class="b-catalog-item-bottom">
-								<div class="price-container">
-									<p class="price icon-rub">1 280</p>
-								</div>
-								<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-								<div class="b-one-click-buy">
-									<a href="#" class="dashed pink">Купить в один клик</a>
+								<div class="b-filter-item b-filter-view">
+									<a href="#" class="filter-icon icon-filter-1 active" data-style="big-tile"></a>
+									<a href="#" class="filter-icon icon-filter-2" data-style="small-tile"></a>
+									<a href="#" class="filter-icon icon-list" data-style="list"></a>
 								</div>
 							</div>
 						</div>
-						<div class="b-catalog-item">
-							<a href="#" class="item-link"></a>
-							<div class="b-catalog-back"></div>
-							<div class="b-catalog-img" style="background-image:url('i/catalog-item-3.jpg');"></div>
-							<div class="b-catalog-item-top">
-								<h6>Силиконовая форма Pavocake БОМБА 3D Bombee Pavoni</h6>
-								<p class="article">Арт. 8340</p>
-							</div>
-							<div class="b-catalog-item-bottom">
-								<div class="price-container">
-									<p class="price icon-rub">850</p>
+						<div class="b-catalog-list">
+							<div class="b-catalog-item">
+								<a href="#" class="item-link"></a>
+								<div class="b-catalog-back"></div>
+								<div class="b-catalog-img" style="background-image:url('i/catalog-item-2.jpg');"></div>
+								<div class="b-catalog-item-top">
+									<h6>Силиконовая форма Multiflex ШИШКИ 3D 5 шт. Foresta110 Silikomart</h6>
+									<p class="article">Арт. 8340</p>
 								</div>
-								<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-								<div class="b-one-click-buy">
-									<a href="#" class="dashed pink">Купить в один клик</a>
+								<div class="b-catalog-item-bottom">
+									<div class="price-container">
+										<p class="price icon-rub">1 280</p>
+									</div>
+									<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
+									<div class="b-one-click-buy">
+										<a href="#" class="dashed pink">Купить в один клик</a>
+									</div>
+								</div>
+							</div>
+							<div class="b-catalog-item">
+								<a href="#" class="item-link"></a>
+								<div class="b-catalog-back"></div>
+								<div class="b-catalog-img" style="background-image:url('i/catalog-item-3.jpg');"></div>
+								<div class="b-catalog-item-top">
+									<h6>Силиконовая форма Pavocake БОМБА 3D Bombee Pavoni</h6>
+									<p class="article">Арт. 8340</p>
+								</div>
+								<div class="b-catalog-item-bottom">
+									<div class="price-container">
+										<p class="price icon-rub">850</p>
+									</div>
+									<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
+									<div class="b-one-click-buy">
+										<a href="#" class="dashed pink">Купить в один клик</a>
+									</div>
+								</div>
+							</div>
+							<div class="b-catalog-item">
+								<a href="#" class="item-link"></a>
+								<div class="b-catalog-back"></div>
+								<div class="b-catalog-img" style="background-image:url('i/catalog-item-4.jpg');"></div>
+								<div class="b-catalog-item-top">
+									<h6>Силиконовая форма Pavocake САВАРЕН 3D Pavoni</h6>
+									<p class="article">Арт. 2301</p>
+								</div>
+								<div class="b-catalog-item-bottom">
+									<div class="price-container">
+										<p class="price icon-rub">650</p>
+									</div>
+									<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
+									<div class="b-one-click-buy">
+										<a href="#" class="dashed pink">Купить в один клик</a>
+									</div>
+								</div>
+							</div>
+							<div class="b-catalog-item discount-item">
+								<a href="#" class="item-link"></a>
+								<div class="b-catalog-back"></div>
+								<div class="b-catalog-img" style="background-image:url('i/catalog-item-5.jpg');">
+									<div class="catalog-item-discount icon-discount-full"><p>-15%</p></div></div>
+								<div class="b-catalog-item-top">
+									<h6>Силиконовая форма Tortaflex ИГРА Game1200 Silikomart</h6>
+									<p class="article">Арт. 2563</p>
+								</div>
+								<div class="b-catalog-item-bottom">
+									<div class="price-container b-discount-price">
+										<p class="old-price icon-rub">1 600</p>
+										<p class="new-price pink icon-rub">1 280</p>
+									</div>
+									<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
+									<div class="b-one-click-buy">
+										<a href="#" class="dashed pink">Купить в один клик</a>
+									</div>
+								</div>
+							</div>
+							<div class="b-catalog-item">
+								<a href="#" class="item-link"></a>
+								<div class="b-catalog-back"></div>
+								<div class="b-catalog-img" style="background-image:url('i/catalog-item-6.jpg');"></div>
+								<div class="b-catalog-item-top">
+									<h6>Силиконовая форма Tortaflex ВОРТЕКС Vortex Silikomart</h6>
+									<p class="article">Арт. 7838</p>
+								</div>
+								<div class="b-catalog-item-bottom">
+									<div class="price-container">
+										<p class="price icon-rub">2 130</p>
+									</div>
+									<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
+									<div class="b-one-click-buy">
+										<a href="#" class="dashed pink">Купить в один клик</a>
+									</div>
+								</div>
+							</div>
+							<div class="b-catalog-item">
+								<a href="#" class="item-link"></a>
+								<div class="b-catalog-back"></div>
+								<div class="b-catalog-img" style="background-image:url('i/catalog-item-1.jpg');"></div>
+								<div class="b-catalog-item-top">
+									<h6>Силиконовая форма Multiflex ЕЖЕВИКА и МАЛИНА 3D Mora Lampone Silikomart</h6>
+									<p class="article">Арт. 4023</p>
+									<p class="description">Мешок силиконовый, производство Китай. Предназначен для работы с кремом. Необходимо использования кондитерских насадок. </p>
+								</div>
+								<div class="b-catalog-item-bottom">
+									<div class="price-container">
+										<p class="price icon-rub">250</p>
+									</div>
+									<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
+									<div class="b-one-click-buy">
+										<a href="#" class="dashed pink">Купить в один клик</a>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="b-catalog-item">
-							<a href="#" class="item-link"></a>
-							<div class="b-catalog-back"></div>
-							<div class="b-catalog-img" style="background-image:url('i/catalog-item-4.jpg');"></div>
-							<div class="b-catalog-item-top">
-								<h6>Силиконовая форма Pavocake САВАРЕН 3D Pavoni</h6>
-								<p class="article">Арт. 2301</p>
-							</div>
-							<div class="b-catalog-item-bottom">
-								<div class="price-container">
-									<p class="price icon-rub">650</p>
+						<div class="b-load-more-container">
+							<a href="#" class="b-load-more icon-load">
+								<p class="pink dashed">Загрузить еще</p>
+							</a>
+						</div>
+						<div class="b-load-more-container">
+							<div class="b-pagination">
+								<a href="#" class="pagination-arrow arrow-back icon-arrow"></a>
+								<div class="b-pagination-container">
+									<a href="#" class="b-pagination-item">1</a>
+									<a href="#" class="b-pagination-item">2</a>
+									<a href="#" class="b-pagination-item active">3</a>
+									<a href="#" class="b-pagination-item">4</a>
+									<a href="#" class="b-pagination-item">5</a>
 								</div>
-								<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-								<div class="b-one-click-buy">
-									<a href="#" class="dashed pink">Купить в один клик</a>
-								</div>
+								<a href="#" class="pagination-arrow arrow-next icon-arrow"></a>
 							</div>
 						</div>
-						<div class="b-catalog-item discount-item">
-							<a href="#" class="item-link"></a>
-							<div class="b-catalog-back"></div>
-							<div class="b-catalog-img" style="background-image:url('i/catalog-item-5.jpg');">
-								<div class="catalog-item-discount icon-discount-full"><p>-15%</p></div></div>
-							<div class="b-catalog-item-top">
-								<h6>Силиконовая форма Tortaflex ИГРА Game1200 Silikomart</h6>
-								<p class="article">Арт. 2563</p>
-							</div>
-							<div class="b-catalog-item-bottom">
-								<div class="price-container b-discount-price">
-									<p class="old-price icon-rub">1 600</p>
-									<p class="new-price pink icon-rub">1 280</p>
-								</div>
-								<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-								<div class="b-one-click-buy">
-									<a href="#" class="dashed pink">Купить в один клик</a>
-								</div>
-							</div>
-						</div>
-						<div class="b-catalog-item">
-							<a href="#" class="item-link"></a>
-							<div class="b-catalog-back"></div>
-							<div class="b-catalog-img" style="background-image:url('i/catalog-item-6.jpg');"></div>
-							<div class="b-catalog-item-top">
-								<h6>Силиконовая форма Tortaflex ВОРТЕКС Vortex Silikomart</h6>
-								<p class="article">Арт. 7838</p>
-							</div>
-							<div class="b-catalog-item-bottom">
-								<div class="price-container">
-									<p class="price icon-rub">2 130</p>
-								</div>
-								<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-								<div class="b-one-click-buy">
-									<a href="#" class="dashed pink">Купить в один клик</a>
-								</div>
-							</div>
-						</div>
-						<div class="b-catalog-item">
-							<a href="#" class="item-link"></a>
-							<div class="b-catalog-back"></div>
-							<div class="b-catalog-img" style="background-image:url('i/catalog-item-1.jpg');"></div>
-							<div class="b-catalog-item-top">
-								<h6>Силиконовая форма Multiflex ЕЖЕВИКА и МАЛИНА 3D Mora Lampone Silikomart</h6>
-								<p class="article">Арт. 4023</p>
-								<p class="description">Мешок силиконовый, производство Китай. Предназначен для работы с кремом. Необходимо использования кондитерских насадок. </p>
-							</div>
-							<div class="b-catalog-item-bottom">
-								<div class="price-container">
-									<p class="price icon-rub">250</p>
-								</div>
-								<a href="#" class="b-btn icon-cart"><p>В корзину</p></a>
-								<div class="b-one-click-buy">
-									<a href="#" class="dashed pink">Купить в один клик</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a href="#" class="b-load-more icon-load">
-						<p class="pink dashed">Загрузить еще</p>
-					</a>
-					<div class="b-pagination">
-						<a href="#" class="pagination-arrow arrow-back icon-arrow"></a>
-						<div class="b-pagination-container">
-							<a href="#" class="b-pagination-item">1</a>
-							<a href="#" class="b-pagination-item">2</a>
-							<a href="#" class="b-pagination-item active">3</a>
-							<a href="#" class="b-pagination-item">4</a>
-							<a href="#" class="b-pagination-item">5</a>
-						</div>
-						<a href="#" class="pagination-arrow arrow-next icon-arrow"></a>
 					</div>
 				</div>
 			</div>
