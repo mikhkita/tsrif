@@ -792,6 +792,33 @@ select{
 			width: calc(100% - 75px);
 			margin-right: 0;
 		}
+.b-rounded-tiles-block.b-subcategory .b-1-by-3-blocks .b-block-2{
+	width: 100%;
+}
+	.b-rounded-tile-item{
+	    width: calc(100%/2 - 16px);
+	}
+	.b-rounded-tile-item:nth-child(3n){
+		margin-right: 20px;
+	}
+	.b-rounded-tile-item:nth-child(2n){
+		margin-right: 0px;
+	}
+	.b-delivery-select select{
+		max-width: 100%;
+	}
+	.b-question-block-left{
+		width: 100%;
+		margin-right: 0;
+		padding-left: 0;
+	}
+	.b-question-form{
+		width: 100%;
+		max-width: 558px;
+	}
+	.b-delivery-advantages{
+		margin-bottom: 30px;
+	}
 @media screen and (max-width: 600px){
 	.b-catalog-item{
 		width: 100%;
@@ -880,6 +907,13 @@ select{
 		.b-works-item-icons{
 			padding: 0 10px;
 		}
+	.b-rounded-tile-item{
+		width: 100%;
+		margin-right: 0;
+	}
+	.b-rounded-tile-item:nth-child(3n){
+		margin-right: 0;
+	}
 }
 
 @media screen and (max-width: 500px){
@@ -1130,6 +1164,18 @@ select{
 	.b-subcategory:after{
 
 	}
+	.b-question-block{
+	    padding: 50px 0;
+	}
+	.b-question-block:before{
+		top: -40px;
+	}
+	.b-question-block:after{
+		bottom: -170px;
+	}
+		.b-question-form .b-one-string-form input{
+			width: 100%;
+		}
 }
 
 @media screen and (max-width: 376px){

@@ -272,7 +272,7 @@ $(document).ready(function(){
     }
 
     $(window).resize(function() {
-        if ($('.b-subcategory .b-1-by-3-blocks .b-block-1').height() > window.innerHeight) {
+        if ($('.b-subcategory .b-1-by-3-blocks .b-block-1').height() > window.innerHeight || !isDesktop) {
             $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'relative');
         }else{
             $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'sticky');
