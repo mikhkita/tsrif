@@ -3649,12 +3649,19 @@ select{
 				color: #282828;
 			}
 		.b-rounded-tile-list{
-
+		    width: 100%;
+		    justify-content: space-between;
+		    display: flex;
+		    flex-wrap: wrap;
+		    align-items: stretch;
 		}
 			.b-rounded-tile-item{
-				display: inline-block;
+			    display: flex;
+			    flex-wrap: wrap;
+			    align-content: center;
+				flex-direction: column;
 				width: calc(100%/3 - 16px);
-				height: 144px;
+				min-height: 144px;
 				border-radius: 27px;
 				box-shadow: 1px 6px 20px 0 rgba(213,217,228,0.50);
 				padding: 20px 25px;
@@ -3678,15 +3685,22 @@ select{
 					height: 50px;
 					background-size: contain;
 					background-repeat: no-repeat;
-					background-position: 50% 0;
+					background-position: 50% 50%;
 					margin: 0 auto;
 				}
-				.b-rounded-tile-name{
-					font-family: "ProximaNova-Semibold";
-					font-size: 18px;
-					line-height: 22px;
-					color: #282828;
+				.b-rounded-tile-name-container{
+			    	height: calc(100% - 60px);
+				    margin-top: 10px;
+				    display: flex;
+				    flex-direction: column;
+				    justify-content: center;
 				}
+					.b-rounded-tile-name{
+						font-family: "ProximaNova-Semibold";
+						font-size: 18px;
+						line-height: 22px;
+						color: #282828;
+					}
 				.icon-courier{
 					background-image: url("../i/icon-courier.png");
 				}
@@ -3699,7 +3713,7 @@ select{
 				.icon-sdek{
 					background-image: url("../i/icon-sdek.png");
 					width: 89px;
-					height: 26px;
+					/*height: 26px;*/
 				}
 				.icon-post{
 					background-image: url("../i/icon-post.png");
@@ -3716,12 +3730,12 @@ select{
 				.icon-dl{
 					background-image: url("../i/icon-dl.png");
 					width: 46px;
-					height: 40px;
+					/*height: 40px;*/
 				}
 				.icon-sl{
 					background-image: url("../i/icon-sl.png");
 					width: 36px;
-					height: 50px;
+					/*height: 50px;*/
 				}
 .b-question-block{
 	text-align: left;
@@ -3816,22 +3830,18 @@ select{
 	.icon-paypal{
 		background-image: url('../i/icon-paypal.png');
 		width: 150px;
-		height: 40px;
 	}
 	.icon-yandex{
 		background-image: url('../i/icon-yandex.png');
 		width: 146px;
-		height: 70px;
 	}
 	.icon-webmoney{
 		background-image: url('../i/icon-webmoney.png');
 		width: 231px;
-		height: 70px;
 	}
 	.icon-qiwi{
 		background-image: url('../i/icon-qiwi.png');
 		width: 101px;
-		height: 40px;
 	}
 	.icon-cash{
 		background-image: url('../i/icon-cash.png');

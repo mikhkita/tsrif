@@ -45,43 +45,63 @@
 					<div class="b-rounded-tile-list">
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-courier"></div>
-							<div class="b-rounded-tile-name">Курьерска доставка</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Курьерска доставка</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-urgently"></div>
-							<div class="b-rounded-tile-name">Срочная курьерская доставка день в день</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Срочная курьерская доставка день в день</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-autopost"></div>
-							<div class="b-rounded-tile-name">Доставка через постоматы</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Доставка через постоматы</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-sdek"></div>
-							<div class="b-rounded-tile-name">СДЭК</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">СДЭК</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-post"></div>
-							<div class="b-rounded-tile-name">Почта России</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Почта России</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-tc"></div>
-							<div class="b-rounded-tile-name">Доставка транспортными компаниями</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Доставка транспортными компаниями</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-pickup"></div>
-							<div class="b-rounded-tile-name">Самовывоз</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Самовывоз</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-pek"></div>
-							<div class="b-rounded-tile-name">Транспортная компания ПЭК</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Транспортная компания ПЭК</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-dl"></div>
-							<div class="b-rounded-tile-name">Деловые линии</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Деловые линии</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-sl"></div>
-							<div class="b-rounded-tile-name">Shop Logistic</div>
+							<div class="b-rounded-tile-name-container">
+									<div class="b-rounded-tile-name">Shop Logistic</div>
+								</div>
 						</a>
 					</div>
 				</div>

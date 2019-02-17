@@ -31,43 +31,63 @@
 					<div class="b-rounded-tile-list">
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-visa"></div>
-							<div class="b-rounded-tile-name">Онлайн банковской картой</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Онлайн банковской картой</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-spasibo"></div>
-							<div class="b-rounded-tile-name">СПАСИБО от Сбербанка</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">СПАСИБО от Сбербанка</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-bank"></div>
-							<div class="b-rounded-tile-name">Банковский перевод</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Банковский перевод</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-sber"></div>
-							<div class="b-rounded-tile-name">Сбербанк Онлайн</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Сбербанк Онлайн</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-paypal"></div>
-							<div class="b-rounded-tile-name">PayPal</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">PayPal</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-yandex"></div>
-							<div class="b-rounded-tile-name">Яндекс.Деньги</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Яндекс.Деньги</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-webmoney"></div>
-							<div class="b-rounded-tile-name">WebMoney</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">WebMoney</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-qiwi"></div>
-							<div class="b-rounded-tile-name">Киви Кошелек</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Киви Кошелек</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-cash"></div>
-							<div class="b-rounded-tile-name">Наличными</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Наличными</div>
+							</div>
 						</a>
 						<a href="#" class="b-rounded-tile-item">
 							<div class="b-rounded-tile-img icon-deliverycash"></div>
-							<div class="b-rounded-tile-name">Наложенный платеж</div>
+							<div class="b-rounded-tile-name-container">
+								<div class="b-rounded-tile-name">Наложенный платеж</div>
+							</div>
 						</a>
 					</div>
 				</div>
