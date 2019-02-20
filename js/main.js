@@ -267,6 +267,13 @@ $(document).ready(function(){
         return false;
     });
 
+    $('.b-faq-item').accordion({
+        active: false,
+        header: "> .b-faq-header",
+        collapsible: true,
+        heightStyle: "content"
+    });
+
     if ($('.b-subcategory .b-1-by-3-blocks .b-block-1').height() > window.innerHeight) {
         $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'relative');
     }
