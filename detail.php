@@ -56,14 +56,14 @@
 					</div>
 				</div>
 				<div class="detail-select-block">
-					<div class="b-filter-select">
+					<div class="b-sort-select">
 						<select name="color">
 							<option value="popular">Светло-зелёный</option>
 							<option value="ASC">Тёмно-зелёный</option>
 							<option value="DESC">Жёлтый</option>
 						</select>
 					</div>
-					<div class="b-filter-select">
+					<div class="b-sort-select">
 						<select name="size">
 							<option value="popular">15x15 средняя</option>
 							<option value="ASC">7x7 маленькая</option>

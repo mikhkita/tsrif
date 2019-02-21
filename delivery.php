@@ -29,8 +29,8 @@
 				<div class="b-block-2">
 					<h3>Доставляем кондитерский инвентарь в 1100 городов России и всего мира</h3>
 					<div class="b-delivery-select-container">
-						<div class="b-delivery-select b-filter-item">
-							<div class="b-filter-select icon-marker">
+						<div class="b-delivery-select b-sort-item">
+							<div class="b-sort-select icon-marker">
 								<select name="type">
 									<option value="spb">Санкт-Петербург</option>
 									<option value="tomsk">Томск</option>

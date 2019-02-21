@@ -2137,4 +2137,3 @@ IMask.createMask = createMask;
 g.IMask = IMask;
 
 // export default IMask;
-//# sourceMappingURL=imask.es.js.map

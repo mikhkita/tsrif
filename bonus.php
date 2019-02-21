@@ -36,22 +36,22 @@
 							<div class="b-bonus-item-description">Участниками бонусной программы&nbsp;могут быть только зарегистрированные покупатели</div>
 						</div>
 						<div class="b-bonus-item">
-							<div class="b-bonus-item-img" style="background-image:url(i/bonus-img-1.jpg)"></div>
+							<div class="b-bonus-item-img" style="background-image:url(i/bonus-img-2.jpg)"></div>
 							<div class="b-bonus-item-name">Сделайте заказ</div>
 							<div class="b-bonus-item-description">Сумма вашего заказа неограничена</div>
 						</div>
 						<div class="b-bonus-item">
-							<div class="b-bonus-item-img" style="background-image:url(i/bonus-img-1.jpg)"></div>
+							<div class="b-bonus-item-img" style="background-image:url(i/bonus-img-3.jpg)"></div>
 							<div class="b-bonus-item-name">Копите бонусы</div>
 							<div class="b-bonus-item-description">За каждую покупку в магазине вы получаете бонусные баллы. 1&nbsp;балл = 1 рубль</div>
 						</div>
 						<div class="b-bonus-item">
-							<div class="b-bonus-item-img" style="background-image:url(i/bonus-img-1.jpg)"></div>
+							<div class="b-bonus-item-img" style="background-image:url(i/bonus-img-4.jpg)"></div>
 							<div class="b-bonus-item-name">Проверяйте баланс</div>
 							<div class="b-bonus-item-description">Баллы начисляются в&nbsp;течение&nbsp;трех дней после покупки на ваш внутренний счет</div>
 						</div>
 						<div class="b-bonus-item">
-							<div class="b-bonus-item-img" style="background-image:url(i/bonus-img-1.jpg)"></div>
+							<div class="b-bonus-item-img" style="background-image:url(i/bonus-img-5.jpg)"></div>
 							<div class="b-bonus-item-name">Оплачивайте покупки</div>
 							<div class="b-bonus-item-description">Используйте бонусы, оплачивая&nbsp;ими до 50% от стоимости заказа</div>
 						</div>
@@ -78,7 +78,7 @@
 						Баллы не начисляются за отзывы без указанного номера заказа.  Магазин оставляет за собой право не начислять бонусы, если отзыв недостаточно информативный.</div>
 					</div>
 					<div class="b-important-info">
-						<div class="b-important-img"></div>
+						<div class="b-important-img" style="background-image: url('i/important-icon.jpg');"></div>
 						<div class="b-important-text">Условия настоящей Бонусной Программы действительны на февраль 2018 года. Магазин оставляет за собой право изменить условия Бонусной Программы в любое время, опубликовав новую редакцию на сайте</div>
 					</div>
 				</div>

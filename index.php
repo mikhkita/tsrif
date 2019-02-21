@@ -482,18 +482,6 @@
 				<div class="b-tab" data-tab="cupcakes">Для капкейков</div>
 				<div class="b-tab" data-tab="makaron">Для макарун</div>
 			</div>
-			<div class="b-tabs-select b-mobile-only">
-				<p><b>Категория:</b></p>
-				<select name="b-tab-select">
-					<option value="gingerbreads">Для пряников</option>
-					<option value="candies">Для конфет</option>
-					<option value="cakepops">Для кейкпопсов</option>
-					<option value="chocolates">Для шоколада</option>
-					<option value="cookies">Для печенья</option>
-					<option value="cupcakes">Для капкейков</option>
-					<option value="makaron">Для макарун</option>
-				</select>
-			</div>
 			<div class="b-tab-item" id="gingerbreads">
 				<div class="b-tabs-container b-tabs-container-dashed">
 					<div class="b-tab active" data-tab="gingerbreads-chocolate">Шоколад</div>
@@ -503,18 +491,6 @@
 					<div class="b-tab" data-tab="gingerbreads-capsules">Капсулы бумажные</div>
 					<div class="b-tab" data-tab="gingerbreads-forms">Формы для выпечки</div>
 					<div class="b-tab" data-tab="gingerbreads-pack">Упаковка</div>
-				</div>
-				<div class="b-tabs-select b-mobile-only">
-					<p><b>Подкатегория:</b></p>
-					<select name="tab-select">
-						<option value="gingerbreads-chocolate">Шоколад</option>
-						<option value="gingerbreads-mixes">Сухие смеси</option>
-						<option value="gingerbreads-dyes">Красители</option>
-						<option value="gingerbreads-tools">Инструмент</option>
-						<option value="gingerbreads-capsules">Капсулы бумажные</option>
-						<option value="gingerbreads-forms">Формы для выпечки</option>
-						<option value="gingerbreads-pack">Упаковка</option>
-					</select>
 				</div>
 				<div class="b-tab-item b-catalog-list" id="gingerbreads-chocolate">
 					<div class="b-catalog-item">
@@ -876,17 +852,6 @@
 				<div class="b-tab" data-tab="colors">Красители</div>
 				<div class="b-tab" data-tab="brands">Бренды</div>
 				<div class="b-tab" data-tab="forms">Формы</div>
-			</div>
-			<div class="b-tabs-select b-mobile-only">
-				<p><b>Категория:</b></p>
-				<select name="b-tab-select">
-					<option value="about">О магазине</div>
-					<option value="inventory">Инвентарь</div>
-					<option value="regs">Ингредиенты</div>
-					<option value="colors">Красители</div>
-					<option value="brands">Бренды</div>
-					<option value="forms">Формы</div>
-				</select>
 			</div>
 			<div class="b-tab-item b-tab-about" id="about">
 				<div class="b-2-by-1-blocks">

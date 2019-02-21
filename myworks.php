@@ -15,11 +15,11 @@
 				<p>Обязательно рассказывайте, какими инструментами вы пользовались, и что куплены они именно в нашем магазине – это привлечет в наше дружное сообщество еще больше посетителей, которые узнают о вас!</p>
 				<p>Размещая фотографии в нашей Галерее, вы предоставляете право использовать фотографии для их размещения на других наших ресурсах – официальных группах в социальных сетях со ссылкой на автора.</p>
 			</div>
-			<div class="b-works-filter">
+			<div class="b-works-sort">
 				<a href="#" class="b-btn"><p class="icon-upload">Загрузить работу</p></a>
-				<div class="b-works-filter-item b-filter-item">
+				<div class="b-works-sort-item b-sort-item">
 					<p><b>Показывать по:</b></p>
-					<div class="b-filter-select">
+					<div class="b-sort-select">
 						<select name="type">
 							<option value="50">50</option>
 							<option value="100">100</option>

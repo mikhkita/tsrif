@@ -163,11 +163,11 @@
 						</div>
 					</div>
 					<div class="b-catalog-preview b-subcategory-catalog-preview">
-						<div class="b-filter">
-							<div class="b-filter-container">
-								<div class="b-filter-item b-filter-type">
+						<div class="b-sort">
+							<div class="b-sort-container">
+								<div class="b-sort-item b-sort-type">
 									<p><b>Сортировать по:</b></p>
-									<div class="b-filter-select">
+									<div class="b-sort-select">
 										<select name="type">
 											<option value="popular">Популярности</option>
 											<option value="ASC">Алфавиту</option>
@@ -175,23 +175,23 @@
 										</select>
 									</div>
 								</div>
-								<div class="b-filter-item b-filter-discount">
+								<div class="b-sort-item b-sort-discount">
 									<label class="checkbox">
 									  <input type="checkbox" value="discount">
 									  <span>Только со скидкой</span>
 									</label>
 								</div>
-								<div class="b-filter-item b-filter-wholesale">
+								<div class="b-sort-item b-sort-wholesale">
 									<label class="checkbox">
 									  <input type="checkbox" value="discount">
 									  <span>Купить оптом</span>
 									</label>
 								</div>
 							</div>
-							<div class="b-filter-container">
-								<div class="b-filter-item b-filter-count">
+							<div class="b-sort-container">
+								<div class="b-sort-item b-sort-count">
 									<p><b>Показывать по:</b></p>
-									<div class="b-filter-select">
+									<div class="b-sort-select">
 										<select name="type">
 											<option value="50">50</option>
 											<option value="100">100</option>
@@ -199,10 +199,10 @@
 										</select>
 									</div>
 								</div>
-								<div class="b-filter-item b-filter-view">
-									<a href="#" class="filter-icon icon-filter-1 active" data-style="big-tile"></a>
-									<a href="#" class="filter-icon icon-filter-2" data-style="small-tile"></a>
-									<a href="#" class="filter-icon icon-list" data-style="list"></a>
+								<div class="b-sort-item b-sort-view">
+									<a href="#" class="sort-icon icon-sort-1 active" data-style="big-tile"></a>
+									<a href="#" class="sort-icon icon-sort-2" data-style="small-tile"></a>
+									<a href="#" class="sort-icon icon-list" data-style="list"></a>
 								</div>
 							</div>
 						</div>

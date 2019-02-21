@@ -6,7 +6,7 @@
 			<a href="#" onclick="return false;">Новинки</a>
 		</div>
 	</div>
-	<div class="b-novelties-block">
+	<div class="b-novelties-block wave-bottom">
 		<div class="b-block">
 			<h1>Новинки</h1>
 			<div class="b-tabs">
@@ -17,15 +17,24 @@
 					<div class="b-tab" data-tab="half-year-ago">Полгода назад</div>
 					<div class="b-tab" data-tab="year-ago">Год назад</div>
 				</div>
-				<div class="b-tabs-select b-mobile-only">
-					<p><b>Категория:</b></p>
-					<select name="b-tab-select">
-						<option value="current-month">За текущий месяц</option>
-						<option value="month-ago">Месяц назад</option>
-						<option value="3-month-ago">Три месяца назад</option>
-						<option value="half-year-ago">Полгода назад</option>
-						<option value="year-ago">Год назад</option>
-					</select>
+				<div class="b-sort b-view-sort-only">
+					<div class="b-sort-container">
+						<div class="b-sort-item b-sort-count">
+							<p><b>Показывать по:</b></p>
+							<div class="b-sort-select">
+								<select name="type">
+									<option value="50">50</option>
+									<option value="100">100</option>
+									<option value="200">200</option>
+								</select>
+							</div>
+						</div>
+						<div class="b-sort-item b-sort-view">
+							<a href="#" class="sort-icon icon-sort-1 active" data-style="big-tile"></a>
+							<a href="#" class="sort-icon icon-sort-2" data-style="small-tile"></a>
+							<a href="#" class="sort-icon icon-list" data-style="list"></a>
+						</div>
+					</div>
 				</div>
 				<div class="b-tab-item" id="current-month">
 					<div class="b-catalog-list">

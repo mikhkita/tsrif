@@ -12,21 +12,21 @@
 				<h2>Галерея</h2>
 				<p>В этом разделе вы можете делиться фотографиями своих сладких шедевров, которые приготовлены при помощи инструментов, купленных в нашем магазине, с другими покупателями.</p>
 			</div>
-			<div class="b-works-filter">
+			<div class="b-works-sort">
 				<a href="#" class="b-btn"><p class="icon-upload">Загрузить работу</p></a>
 				<div class="b-gallery-sort">
-					<div class="b-works-filter-item b-filter-item">
+					<div class="b-works-sort-item b-sort-item">
 						<p><b>Сортировать по:</b></p>
-						<div class="b-filter-select">
+						<div class="b-sort-select">
 							<select name="type">
 								<option value="50">Популярности</option>
 								<option value="100">Обсуждению</option>
 							</select>
 						</div>
 					</div>
-					<div class="b-works-filter-item b-filter-item">
+					<div class="b-works-sort-item b-sort-item">
 						<p><b>Показывать по:</b></p>
-						<div class="b-filter-select">
+						<div class="b-sort-select">
 							<select name="type">
 								<option value="50">50</option>
 								<option value="100">100</option>

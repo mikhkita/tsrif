@@ -14,12 +14,10 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
-	<link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
 	<link rel="stylesheet" href="css/KitAnimate.css" type="text/css">
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
 	<link rel="stylesheet" href="css/slick.css" type="text/css">
-	<!-- <link rel="stylesheet" href="css/jquery.formstyler.css" type="text/css"> -->
 	
 	<link rel="stylesheet" media="screen and (min-width: 240px) and (max-width: 1023px)" href="css/layout-tablet.css">
 	<link rel="stylesheet" media="screen and (min-width: 240px) and (max-width: 960px)" href="css/layout-mobile.css">
