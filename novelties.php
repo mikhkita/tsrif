@@ -10,7 +10,7 @@
 		<div class="b-block">
 			<h1>Новинки</h1>
 			<div class="b-tabs">
-				<div class="b-tabs-container b-tabs-container-underline">
+				<div id="b-novelties-tab-slider" class="b-tabs-container b-tabs-container-underline">
 					<div class="b-tab active" data-tab="current-month">За текущий месяц</div>
 					<div class="b-tab" data-tab="month-ago">Месяц назад</div>
 					<div class="b-tab" data-tab="3-month-ago">Три месяца назад</div>

@@ -614,11 +614,12 @@ select{
 		border-bottom: unset;
 	}
 	.b-tabs-container-underline .b-tab{
-		padding: 0 12px;
-		margin-bottom: 0;
+		padding: 0;
+		margin: 0 12px;
+		margin-bottom: -2px;
 	}
 	.b-tabs-container-dashed .b-tab{
-		padding:0 10px;
+		margin:0 10px;
 	}
 	.b-slick-tabs .b-tabs-container-underline{
 	    border-bottom: unset; 
@@ -628,7 +629,7 @@ select{
 	}
 	.b-slick-tabs .b-tabs-container-underline .b-tab{
 		border-bottom: 2px solid #CFD3E0;
-		margin-bottom: 0;
+		margin-bottom: -2px;
 	}
 	.b-slick-tabs .b-tabs-container-underline .b-tab.slick-current{
 		border-bottom: 2px solid #FF345F;
@@ -853,6 +854,25 @@ select{
 	.b-stock-block .b-tabs-container{
 		display: block;
 	}
+	.b-faq-form-block .b-block-1{
+		display: none;
+	}
+	.b-contacts-top-form .b-1-by-3-blocks .b-block-1{
+		display: none;
+	}
+	.b-contacts-top-form .b-1-by-3-blocks .b-block-2{
+		width: 100%;
+	}
+	.b-contacts-bottom-form .b-1-by-3-blocks .b-block-1{
+		display: none;
+	}
+	.b-contacts-bottom-form .b-1-by-3-blocks .b-block-2{
+		width: 100%;
+	}
+		.b-contacts-bottom-form .b-faq-form-bottom p{
+			display: block;
+			margin-top: 8px;
+		}
 
 @media screen and (max-width: 600px){
 	.b-catalog-item{

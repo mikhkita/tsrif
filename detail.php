@@ -87,7 +87,7 @@
 					<div class="b-detail-one-click">или <a href="#" class="pink dashed">купить в один клик</a></div>
 				</div>
 				<div class="b-detail-tabs">
-					<div class="b-tabs-container b-tabs-container-underline">
+					<div id="b-detail-tabs-slider" class="b-tabs-container b-tabs-container-underline">
 						<div class="b-tab active" data-tab="description">Описание</div>
 						<div class="b-tab" data-tab="delivery">Доставка</div>
 						<div class="b-tab" data-tab="review">Отзывы (10)</div>

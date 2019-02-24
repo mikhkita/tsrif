@@ -496,7 +496,7 @@
 	</div>
 	<div class="b-bottom-catalog b-subcategory-bottom-catalog">
 		<div class="b-block">
-			<div class="b-tabs-container b-tabs-container-underline">
+			<div id="b-subcategory-tabs-slick" class="b-tabs-container b-tabs-container-underline">
 				<div class="b-tab active" data-tab="about">О магазине</div>
 				<div class="b-tab" data-tab="inventory">Инвентарь</div>
 				<div class="b-tab" data-tab="regs">Ингредиенты</div>

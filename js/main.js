@@ -89,6 +89,7 @@ $(document).ready(function(){
                 },
             ]
         });
+
         $('.b-work-slider-top').slick({
             dots: false,
             slidesToShow: 1,
@@ -120,6 +121,25 @@ $(document).ready(function(){
                 },
             ]
         });
+    };
+
+    function tabs_slider(id){
+        var tabs_count = $('#'+id+' .b-tab').length - 1;
+        $('#'+id).slick({
+            dots: false,
+            slidesToShow: tabs_count,
+            infinite: true,
+            slidesToScroll: 1,
+            cssEase: 'ease', 
+            centerMode: true,
+            speed: 500,
+            variableWidth: true,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev slick-arrow icon-arrow"></button>',
+            nextArrow: '<button type="button" class="slick-next slick-arrow icon-arrow"></button>',
+            touchThreshold: 100,
+            focusOnSelect: true,
+        });  
     };
 
     slick_init();
@@ -198,17 +218,15 @@ $(document).ready(function(){
 
     if (!isDesktop) {
 
-         $('.b-tabs-container').slick({
-            dots: false,
-            slidesToScroll: 1,
-            infinite: true,
-            cssEase: 'ease', 
-            speed: 500,
-            variableWidth: true,
-            arrows: false,
-            touchThreshold: 100,
-            focusOnSelect: true,
-        });
+        tabs_slider('b-catalog-tabs-top-slider');
+        tabs_slider('b-catalog-tabs-bottom-slider-1');
+        tabs_slider('b-catalog-tabs-bottom-slider-2');
+        tabs_slider('b-category-tab-slider');
+        tabs_slider('b-detail-tabs-slider');
+        tabs_slider('b-novelties-tab-slider');
+        // tabs_slider('b-sale-slider');
+        tabs_slider('b-bottom-tabs-slider');
+        tabs_slider('b-subcategory-tabs-slick');
 
         $('.b-tabs-container').on('afterChange', function(event, slick, currentSlide, nextSlide){
             var current = $(this).find('.slick-current');
@@ -297,12 +315,12 @@ $(document).ready(function(){
     });
 
     if ($('.b-subcategory .b-1-by-3-blocks .b-block-1').height() > window.innerHeight) {
-        $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'relative');
+        $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'unset');
     }
 
     $(window).resize(function() {
         if ($('.b-subcategory .b-1-by-3-blocks .b-block-1').height() > window.innerHeight || !isDesktop) {
-            $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'relative');
+            $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'unset');
         }else{
             $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'sticky');
         }
@@ -382,25 +400,6 @@ $(document).ready(function(){
     //     $(".b-step-slide[data-slick-index='"+currentSlide+"'] .slider-anim").addClass("show");
     // });
 
-
-    
-	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
- //    var myOptions = {
- //        zoom: 16,
- //        center: myPlace,
- //        mapTypeId: google.maps.MapTypeId.ROADMAP,
- //        disableDefaultUI: true,
- //        scrollwheel: false,
- //        zoomControl: true
- //    }
- //    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); 
-
- //    var marker = new google.maps.Marker({
-	//     position: myPlace,
-	//     map: map,
-	//     title: "Ярмарка вакансий и стажировок"
-	// });
-
 });
 
 window.onload = function() {
@@ -424,4 +423,22 @@ window.onload = function() {
             ]
         });
     }
+
+    var myPlace = new google.maps.LatLng(55.78108,37.5978152);
+    var myOptions = {
+        zoom: 16,
+        center: myPlace,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        disableDefaultUI: true,
+        scrollwheel: false,
+        zoomControl: true
+    }
+    var map = new google.maps.Map(document.getElementById("contacts-map"), myOptions); 
+
+    var marker = new google.maps.Marker({
+        position: myPlace,
+        map: map,
+        title: "Ярмарка вакансий и стажировок"
+    });
+    
 };

@@ -10,7 +10,7 @@
 		<div class="b-block">
 			<h1>Товары со скидкой</h1>
 			<div class="b-tabs">
-				<div class="b-tabs-container b-tabs-container-underline">
+				<div id="b-sale-slider" class="b-tabs-container b-tabs-container-underline">
 					<a class="b-tab">Акции</a>
 					<a class="b-tab">Подарки</a>
 					<a class="b-tab active">Товары со скидкой</a>

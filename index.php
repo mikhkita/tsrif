@@ -7,8 +7,8 @@
 				<img src="i/banner-back-1-info.png">
 				<h5>Лидер на рынке <span class="bold">пищевых красителей</span></h5>
 				<div class="b-banner-columns">
-					<div class="b-banner-column"><h6>30 насыщенных  оттенков</h6></div>
-					<div class="b-banner-column"><h6>Кошерный и  халяльный продукт</h6></div>
+					<div class="b-banner-column"><h6>30 насыщенных оттенков</h6></div>
+					<div class="b-banner-column"><h6>Кошерный и халяльный продукт</h6></div>
 				</div>
 				<a href="#" class="b-btn">Смотреть каталог</a>
 			</div>
@@ -420,7 +420,7 @@
 					<h2>Товар дня*</h2>
 					<h3>от «Первого магазина»</h3>
 					<h4>Узнавайте об <span class="bold">акциях и новинках</span> первыми</h4>
-					<h4>Подпишитесь на рассылку и покупайте <br>с выгодой для себя</h4>
+					<h4>Подпишитесь на рассылку и покупайте<br>с выгодой для себя</h4>
 					<form action="/kitsend.php" class="b-one-string-form">
 						<input type="text" placeholder="Введите ваш E-mail">
 						<a href="#" class="pink">Подписаться</a>
@@ -473,7 +473,7 @@
 	</div>
 	<div class="b-tabs b-catalog-tabs wave-top">
 		<div class="b-block">
-			<div class="b-tabs-container b-tabs-container-underline">
+			<div id="b-catalog-tabs-top-slider" class="b-tabs-container b-tabs-container-underline" >
 				<div class="b-tab active" data-tab="gingerbreads">Для пряников</div>
 				<div class="b-tab" data-tab="candies">Для конфет</div>
 				<div class="b-tab" data-tab="cakepops">Для кейкпопсов</div>
@@ -483,7 +483,7 @@
 				<div class="b-tab" data-tab="makaron">Для макарун</div>
 			</div>
 			<div class="b-tab-item" id="gingerbreads">
-				<div class="b-tabs-container b-tabs-container-dashed">
+				<div id="b-catalog-tabs-bottom-slider-1" class="b-tabs-container b-tabs-container-dashed">
 					<div class="b-tab active" data-tab="gingerbreads-chocolate">Шоколад</div>
 					<div class="b-tab" data-tab="gingerbreads-mixes">Сухие смеси</div>
 					<div class="b-tab" data-tab="gingerbreads-dyes">Красители</div>
@@ -651,7 +651,7 @@
 				<a href="#" class="b-btn b-btn-white">Все товары для пряников</a>
 			</div>
 			<div class="b-tab-item hide" id="candies">
-				<div class="b-tabs-container b-tabs-container-dashed">
+				<div  id="b-catalog-tabs-bottom-slider-2" class="b-tabs-container b-tabs-container-dashed">
 					<div class="b-tab" data-tab="gingerbreads-chocolate">Шоколад</div>
 					<div class="b-tab" data-tab="gingerbreads-mixes">Сухие смеси</div>
 					<div class="b-tab active" data-tab="gingerbreads-dyes">Красители</div>
@@ -754,7 +754,7 @@
 		<div class="b-block">
 			<div class="b-catalog-item">
 				<h2>Видеообзоры</h2>
-				<h4>от «Первого магазина»  для кондитеров</h4>
+				<h4>от «Первого магазина» для кондитеров</h4>
 				<p class="video-text">Мы первыми в российском интернет пространстве начали делать полноценные видеообзоры товаров для кондитеров</p>
 				<a href="#" class="b-btn b-btn-white">Видеоархив на YouTube</a>
 			</div>
@@ -818,7 +818,7 @@
 		<div class="b-block">
 			<div class="b-1-by-3-blocks">
 				<div class="b-block-1">
-					<h2>Покажи  и&nbsp;расскажи</h2>
+					<h2>Покажи и&nbsp;расскажи</h2>
 					<p>Вдохновляйтесь работами других покупателей и делитесь своими</p>
 					<a href="#" class="b-btn b-btn-white">В галерею</a>
 				</div>
@@ -845,7 +845,7 @@
 	</div>
 	<div class="b-bottom-catalog">
 		<div class="b-block">
-			<div class="b-tabs-container b-tabs-container-underline">
+			<div id="b-bottom-tabs-slider" class="b-tabs-container b-tabs-container-underline">
 				<div class="b-tab active" data-tab="about">О магазине</div>
 				<div class="b-tab" data-tab="inventory">Инвентарь</div>
 				<div class="b-tab" data-tab="regs">Ингредиенты</div>
