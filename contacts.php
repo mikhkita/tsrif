@@ -35,9 +35,9 @@
 								<a href="tel:+74959225055" class="b-contacts-phone-link">+ 7 (495) 922 50 55</a>
 								<a href="tel:+74956447572" class="b-contacts-phone-link">+ 7 (495) 644 75 72</a>
 								<div class="b-contacts-phone-soc">
-									<div class="b-contacts-phone-soc-item"></div>
-									<div class="b-contacts-phone-soc-item"></div>
-									<div class="b-contacts-phone-soc-item"></div>
+									<a href="#" class="b-contacts-phone-soc-item" style="background-image: url('i/icon-contacts-soc-1.svg');"></a>
+									<a href="#" class="b-contacts-phone-soc-item" style="background-image: url('i/icon-contacts-soc-2.svg');"></a>
+									<a href="#" class="b-contacts-phone-soc-item" style="background-image: url('i/icon-contacts-soc-3.svg');"></a>
 								</div>
 							</div>
 							<div class="b-contacts-mail b-contacts-left-inner">

@@ -142,6 +142,15 @@ $(document).ready(function(){
         });  
     };
 
+    function wholesale_height(){
+        $('.b-wholesale-catalog .b-wholesale-img-container').each(function(){
+            $(this).height($(this).width());
+        });
+        $('.b-wholesale-brands .b-wholesale-img-container').each(function(){
+            $(this).height($(this).width()/1.54);
+        });
+    }
+
     slick_init();
 
     function resize(){
@@ -264,6 +273,8 @@ $(document).ready(function(){
                  $('#'+tab).removeClass('hide');
             }
         });
+
+        wholesale_height();
     }
 
     $('.b-tabs-container').each(function(){
@@ -319,6 +330,12 @@ $(document).ready(function(){
     }
 
     $(window).resize(function() {
+
+        if (isDesktop) {
+            wholesale_height();
+        }
+        
+
         if ($('.b-subcategory .b-1-by-3-blocks .b-block-1').height() > window.innerHeight || !isDesktop) {
             $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'unset');
         }else{

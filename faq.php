@@ -122,6 +122,12 @@
 								<a href="#" class="b-btn ajax">Задать вопрос</a>
 								<a href="#" class="dashed">Загрузить фото</a>
 							</div>
+							<div class="b-faq-checkbox">
+								<label class="checkbox">
+								  <input type="checkbox" value="discount" checked>
+								  <span>Я принимаю условия <a href="#" class="dashed">передачи информации</a></span>
+								</label>
+							</div>
 						</form>
 					</div>
 				</div>

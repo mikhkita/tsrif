@@ -56,7 +56,7 @@
 					</script>
 				</div>
 				<div class="widget-item instagram-widget">
-					<iframe src='/inwidget/index.php?width=267&skin=myskin' data-inwidget scrolling='no' frameborder='no' style='border:none;width:267px;height:257px;overflow:hidden;'></iframe>
+					<iframe src='inwidget/index.php?width=267&skin=myskin' data-inwidget scrolling='no' frameborder='no' style='border:none;width:267px;height:257px;overflow:hidden;'></iframe>
 				</div>
 			</div>
 		</div>

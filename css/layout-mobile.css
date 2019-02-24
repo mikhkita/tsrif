@@ -873,7 +873,43 @@ select{
 			display: block;
 			margin-top: 8px;
 		}
-
+.b-wholesale-adv-item{
+    width: calc(100%/2 - 15px);
+    margin-bottom: 20px;
+}
+.b-wholesale-adv-item:nth-child(2n){
+	margin-right: 0;
+}
+.b-wholesale-care .b-1-by-3-blocks .b-block-1{
+	display: none;
+}
+.b-wholesale-catalog-item{
+	width: calc(100%/2 - 15px);
+    margin-bottom: 20px;
+}
+.b-wholesale-catalog-item:nth-child(3n){
+	margin-right: 23px;	
+}
+.b-wholesale-catalog-item:nth-child(2n){
+	margin-right: 0;
+}
+.b-wholesale-back-text{
+	display: none;
+}
+.b-wholesale-reviews-item{
+	width: 100%;
+	margin-right: 0;
+}
+.b-wholesale-last-right{
+	display: none;
+}
+.b-wholesale-last-left{
+	width: 100%;
+}
+.b-wholesale-chefmaster-container .b-btn.b-btn-white{
+    background-color: #FF345F;
+	color: #fff;
+}
 @media screen and (max-width: 600px){
 	.b-catalog-item{
 		width: 100%;
@@ -987,6 +1023,10 @@ select{
 	}
 	.b-stock-content{
 		width: 100%;
+	}
+	.b-wholesale-chefmaster{
+	    padding: 44px 47px 29px;
+    	text-align: center;
 	}
 }
 
@@ -1273,6 +1313,63 @@ select{
 	.b-stock-block .b-tabs-container-underline .b-tab{
 		font-size: 16px;
 		padding: 0 3px;
+	}
+	.b-wholesale-adv-item{
+	    width: 100%;
+	    margin-right: 0;
+	}
+	.b-wholesale-catalog-item{
+		width: 100%;
+		margin-right: 0;
+	}
+	.b-wholesale-catalog-item:nth-child(3n){
+		margin-right: 0;
+	}
+	.b-wholesale-img-container{
+		min-height: 200px;
+	}
+	.b-wholesale-brands .b-wholesale-catalog-item{
+		width: 100%;
+		margin-right: 0;
+	}
+	.b-wholesale-brands .b-wholesale-catalog-item:nth-child(3n){
+		margin-right: 0;
+	}
+	.b-wholesale-reviews-img{
+		width: 50px;
+		height: 50px;
+	}
+	.b-wholesale-reviews-item-right{
+	    width: calc(100% - 69px);
+    	margin-left: 15px;
+	}
+	.b-wholesale-brands:after{
+		bottom: -110px;
+	}
+	.b-wholesale-catalog:after{
+		bottom: -115px;
+	}
+	.b-wholesale-block:after{
+		bottom: -95px;
+	}
+	.b-wholesale-care-text{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.b-wholesale-care .b-btn{
+		font-size: 18px;
+	    padding: 15px 36px 17px 37px;
+	}
+	.b-wholesale-chefmaster{
+	    padding: 44px 15px 29px;
+	}
+	.b-wholesale-chefmaster-header{
+		font-size: 24px;
+	}
+	.b-wholesale-chefmaster-logo{
+		width: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 }
 
