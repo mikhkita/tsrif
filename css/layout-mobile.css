@@ -910,6 +910,18 @@ select{
     background-color: #FF345F;
 	color: #fff;
 }
+.b-404-img{
+	display: none;
+}
+.b-404-block{
+	width: 100%;
+}
+.b-404 .b-search-form{
+	max-width: 500px;
+}
+.b-404 a{
+	font-size: 18px;
+}
 @media screen and (max-width: 600px){
 	.b-catalog-item{
 		width: 100%;
@@ -1027,6 +1039,12 @@ select{
 	.b-wholesale-chefmaster{
 	    padding: 44px 47px 29px;
     	text-align: center;
+	}
+	.b-404 p{
+		font-size: 16px;
+	}
+	.b-404 a{
+		font-size: 16px;
 	}
 }
 
@@ -1371,6 +1389,12 @@ select{
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
+	.b-404{
+		padding-bottom: 50px;
+	}
+	.b-404:after{
+		bottom: -120px;
+	}
 }
 
 @media screen and (max-width: 376px){
@@ -1389,6 +1413,9 @@ select{
 	}
 	.b-sort-discount{
 		margin-right: 20px;
+	}
+	.b-404 ul{
+		display: block;
 	}
 }
 
