@@ -5255,6 +5255,39 @@ select{
 	.b-404-bottom-catalog .b-tab-item{
 		max-width: 828px;
 	}
+.b-certificates-block{
+
+}
+	.b-certificates-block .b-block-2{
+		text-align: center;
+	}
+	.b-certificates-list{
+		text-align: left;
+	}
+		.b-certificates-item{
+			display: inline-block;
+			width: calc(100%/3 - 15px);
+			margin-right: 18px;
+			margin-bottom: 42px;
+			text-align: center;
+		}
+		.b-certificates-item:nth-child(3n){
+			margin-right: 0;
+		}
+			.b-certificate-img{
+				height: 378px;
+				background-position: 50% 50%;
+				background-size: cover;
+				margin-bottom: 22px;
+			}
+			.b-certificate-img:hover{ 
+
+			}
+			.b-certificate-name{
+				font-family: ProximaNova-Semibold;
+				font-size: 24px;
+				color: #282828;
+			}
 @media only screen and (max-width: 1920px){
 	/*.b-news-preview:before{
 		top: -60px;
