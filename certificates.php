@@ -28,28 +28,28 @@
 				<div class="b-block-2">
 					<h3>Наша продукция имеет действующие<br>сертификаты качества</h3>
 					<div class="b-certificates-list">
-						<a href="i/certificate-1.jpg" class="b-certificates-item">
-							<div class="b-certificate-img fancy-img" style="background-image: url('i/certificate-1.jpg')"></div>
+						<a href="i/certificate-1.jpg" class="b-certificates-item fancy-img">
+							<div class="b-certificate-img-cont icon-zoom"><img class="b-certificate-img" src="i/certificate-1.jpg"></div>
 							<div class="b-certificate-name">Сертификат такой-то</div>
 						</a>
-						<a href="i/certificate-1.jpg" class="b-certificates-item">
-							<div class="b-certificate-img fancy-img" style="background-image: url('i/certificate-2.jpg')"></div>
+						<a href="i/certificate-2.jpg" class="b-certificates-item fancy-img">
+							<div class="b-certificate-img-cont icon-zoom"><img class="b-certificate-img" src="i/certificate-2.jpg"></div>
 							<div class="b-certificate-name">Сертификат такой-то</div>
 						</a>
-						<a href="i/certificate-1.jpg" class="b-certificates-item">
-							<div class="b-certificate-img fancy-img" style="background-image: url('i/certificate-3.jpg')"></div>
+						<a href="i/certificate-3.jpg" class="b-certificates-item fancy-img">
+							<div class="b-certificate-img-cont icon-zoom"><img class="b-certificate-img" src="i/certificate-3.jpg"></div>
 							<div class="b-certificate-name">Сертификат такой-то</div>
 						</a>
-						<a href="i/certificate-1.jpg" class="b-certificates-item">
-							<div class="b-certificate-img fancy-img" style="background-image: url('i/certificate-1.jpg')"></div>
+						<a href="i/certificate-1.jpg" class="b-certificates-item fancy-img">
+							<div class="b-certificate-img-cont icon-zoom"><img class="b-certificate-img" src="i/certificate-1.jpg"></div>
 							<div class="b-certificate-name">Сертификат такой-то</div>
 						</a>
-						<a href="i/certificate-1.jpg" class="b-certificates-item">
-							<div class="b-certificate-img fancy-img" style="background-image: url('i/certificate-2.jpg')"></div>
+						<a href="i/certificate-2.jpg" class="b-certificates-item fancy-img">
+							<div class="b-certificate-img-cont icon-zoom"><img class="b-certificate-img" src="i/certificate-2.jpg"></div>
 							<div class="b-certificate-name">Сертификат такой-то</div>
 						</a>
-						<a href="i/certificate-1.jpg" class="b-certificates-item">
-							<div class="b-certificate-img fancy-img" style="background-image: url('i/certificate-3.jpg')"></div>
+						<a href="i/certificate-3.jpg" class="b-certificates-item fancy-img">
+							<div class="b-certificate-img-cont icon-zoom"><img class="b-certificate-img" src="i/certificate-3.jpg"></div>
 							<div class="b-certificate-name">Сертификат такой-то</div>
 						</a>
 					</div>

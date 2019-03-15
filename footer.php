@@ -55,12 +55,12 @@
 </div>
 	<div style="display:none;">
 		<a href="#b-popup-error" class="b-error-link fancy" style="display:none;"></a>
-		<div class="b-popup b-popup-city" id="b-popup-city">
+		<div class="b-popup b-popup-city" id="b-popup-">
 			<div class="b-popup-h3">Выбор города</div>
 			<form action="kitsend.php" method="POST" id="b-form-city">
 				<div class="b-popup-form">
 					<div class="b-input-string icon-search">
-						<input type="text" class="b-popup-input" placeholder="Где вы находитесь?" name="q">
+						<input type="text" class="b-popup-input" placeholder="Где вы находитесь?" required>
 					</div>
 					<div class="b-btn-container">
 						<a href="#" class="b-btn b-btn-white ajax">Выбрать</a>
@@ -70,24 +70,85 @@
 					<a href="#b-popup-success" class="b-thanks-link fancy" style="display:none;"></a>
 				</div>
 			</form>
+			<div class="b-popup-text">Найдите свой город через поиск или выберите из списка.</div>
+			<div class="b-popup-city-list">
+				<ul>
+					<li><a href="#">Москва</a></li>
+					<li><a href="#">Санкт-Петербург</a></li>
+					<li><a href="#">Новосибирск</a></li>
+					<li><a href="#">Ульяновск</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Краснодар</a></li>
+					<li><a href="#">Тюмень</a></li>
+					<li><a href="#">Челябинск</a></li>
+					<li><a href="#">Хабаровск</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Томск</a></li>
+					<li><a href="#">Нижний Новгород</a></li>
+					<li><a href="#">Пермь</a></li>
+					<li><a href="#">Иркутск</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="b-popup" id="b-popup-1">
-			<h3>Оставьте заявку</h3>
-			<h4>и наши специалисты<br>свяжутся с Вами в ближайшее время</h4>
-			<form action="kitsend.php" data-goal="CALLBACK" method="POST" id="b-form-1">
-				<div class="b-popup-form">
-					<label for="name">Введите Ваше имя</label>
-					<input type="text" id="name" name="name" required/>
-					<label for="tel">Введите Ваш номер телефона</label>
-					<input type="text" id="tel" name="phone" required/>
-					<label for="tel">Введите Ваш E-mail</label>
-					<input type="text" id="tel" name="email" required/>
-					<input type="hidden" name="subject" value="Заказ"/>
-					<input type="submit" style="display:none;">
-					<a href="#" class="b-btn b-blue-btn ajax">Заказать</a>
-					<a href="#b-popup-success" class="b-thanks-link fancy" style="display:none;"></a>
+		<div class="b-popup b-popup-present" id="b-popup-present">
+			<div class="b-popup-present-top">
+				<div class="b-popup-present-img" style="background-image: url(i/catalog-item-2.jpg);"></div>
+				<div class="b-popup-present-right">
+					<div class="b-popup-h3">Молд силиконовый для выпечки «Доляна»</div>
+					<div class="b-popup-text">При покупке от 2 000 рублей</div>
+					<div class="b-popup-limit-text">Акция действует до 15 августа</div>
 				</div>
-			</form>
+			</div>
+			<div class="b-popup-present-bottom">
+				<div class="b-popup-text">Для получения подарка необходимо приобрести товары из этой подборки на сумму от 1 600 рублей. Все товары, учавствующие в накоплении, имеют специальную отметку. Акция проходит только в интернет-магазине и завершается с окончанием подарков. Количество подарков ограничено.</div>
+			</div>
+			<div class="b-btn-container">
+				<a href="#" onclick="$.fancybox.close(); return false;" class="b-btn b-btn-close">Закрыть</a>
+			</div>
+		</div>
+		<div class="b-popup b-popup-sale" id="b-popup-sale">
+			<div class="b-popup-sale-img" style="background-image: url(i/news-item-4.jpg);"></div>
+			<div class="b-popup-sale-header">Время работает на вас!</div>
+			<div class="b-popup-sale-limit">Акция действует до 25 августа</div>
+			<div class="b-popup-sale-text"><b>Скидка 5% при оплате в день заказа.</b> Оплатите товар в день заказа и получите скидку 5%. Акция не распространяется на товары со скидкой.</div>
+			<div class="b-btn-container">
+				<a href="#" onclick="$.fancybox.close(); return false;" class="b-btn b-btn-close">Закрыть</a>
+			</div>
+		</div>
+		<div class="b-popup b-popup-pay" id="b-popup-pay">
+			<div class="b-btn-container">
+				<div class="b-popup-h3">Оплата банковской картой Онлайн</div>
+			</div>
+			<div class="b-popup-pay-text">Вы можете оплатить покупку на сайте в момент оформления заказа или воспользоваться сервисом Сбербанк Онлайн. Комиссия при переводе через Сбребанк Онлайн составляет 1% от суммы. Возможна отправка в долларах и евро по курсу банка.</div>
+			<div class="b-btn-container">
+				<a href="#" onclick="$.fancybox.close(); return false;" class="b-btn b-btn-close">Закрыть</a>
+			</div>
+		</div>
+		<div class="b-popup b-popup-work" id="b-popup-work">
+			<div class="b-popup-work-top">
+				<div class="b-popup-work-img" style="background-image: url(i/works-1.jpg);"></div>
+				<div class="b-popup-work-right">
+					<div class="b-popup-h3">Торт «Максимка»</div>
+					<div class="b-popup-text">Приготовила на день рождения сына. Использовала кондитерские насадки 2М и 4М и плунжеры Бабочки, купленные в Первом магазине для кондитеров. Инструмент и ингедиенты качественные, все вышло отлично! Сын в восторге. Спасибо, что вы есть!</div>
+				</div>
+			</div>
+			<div class="b-popup-work-bottom">
+				<div class="b-popup-text">Для получения подарка необходимо приобрести товары из этой подборки на сумму от 1 600 рублей. Все товары, учавствующие в накоплении, имеют специальную отметку. Акция проходит только в интернет-магазине и завершается с окончанием подарков. Количество подарков ограничено.</div>
+			</div>
+			<div class="b-btn-container">
+				<a href="#" onclick="$.fancybox.close(); return false;" class="b-btn b-btn-close">Закрыть</a>
+			</div>
+		</div>
+		<div class="b-popup b-popup-delete" id="b-popup-city">
+			<div class="b-popup-sale-header">Вы точно хотите удалить работу?</div>
+			<div class="b-btn-container">
+				<a href="#" onclick="$.fancybox.close(); return false;" class="b-btn icon-delete">Удалить</a>
+			</div>
+			<div class="b-btn-container">
+				<a href="#" onclick="$.fancybox.close(); return false;" class="b-btn b-btn-close icon-arrow">Отменить</a>
+			</div>
 		</div>
 		<div class="b-thanks b-popup" id="b-popup-success">
 			<h3>Спасибо!</h3>

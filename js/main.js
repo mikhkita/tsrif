@@ -151,6 +151,15 @@ $(document).ready(function(){
         });
     }
 
+    function certificateImg(){
+        $('.b-certificates-list').find('.b-certificate-img').each(function() {
+            var height = $(this).height();
+            var width = $(this).width();
+            var k = height/width;
+            $(this).height(k*width);
+        })
+    }
+
     slick_init();
 
     function resize(){
@@ -333,6 +342,7 @@ $(document).ready(function(){
 
         if (isDesktop) {
             wholesale_height();
+            // certificateImg();
         }
         
 
