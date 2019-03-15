@@ -158,6 +158,66 @@ textarea::-webkit-input-placeholder {
 textarea:-moz-placeholder {
 	color: #828282;
 }
+
+/****POPUP*****/
+
+.b-popup{
+	padding: 45px 35px;
+	overflow: hidden;
+}
+	.b-popup-h3{
+		font-family: 'ProximaNova-Bold';
+		font-size: 24px;
+		line-height: 29px;
+	}
+	.b-popup-form{
+
+	}
+		.b-input-string{
+
+		}
+			.b-popup-input{
+				width: 100%;
+				border-radius: 25px;
+				padding: 15px 28px;
+				font-family: 'ProximaNova-Regular';
+				font-size: 16px;
+				position: relative;
+			    -webkit-appearance: none;
+			    border: 1px solid #E8E8ED;
+			}
+			.b-popup-input::-webkit-input-placeholder {
+				font-family: 'ProximaNova-Regular';
+				color: #E8E8ED;
+			}
+			.b-popup-input:-moz-placeholder {
+				font-family: 'ProximaNova-Regular';
+				color: #E8E8ED;
+			}
+	.b-popup-city{
+		width: 100%;
+		max-width: 585px;
+	}
+		.b-popup-city .b-input-string:before{
+			color: #E8E8ED;
+			right: -20px;
+		}
+			.b-popup-city .b-input-string{
+				display: inline-block;
+				width: calc(100% - 145px);
+				margin-right: 12px;
+			}
+			.b-popup-city .b-btn-container{
+				display: inline-block;
+			}
+				.b-popup-city .b-btn{
+					font-size: 16px;
+					line-height: 26px;
+					padding: 10px 32px;
+				}
+
+/****POPUP*****/
+
 .burger-menu{
 	display: none;
 }

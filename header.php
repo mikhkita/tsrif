@@ -57,7 +57,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 		<div class="b-block">
 			<div class="b-top-content-container">
 				<div class="b-top-content-block b-top-city">
-					<a href="#" class="dashed"><b>Москва</b></a>
+					<a href="#b-popup-city" class="dashed fancy"><b>Москва</b></a>
 					<p>25 пунктов выдачи</p>
 				</div>
 				<div class="b-top-content-block b-top-schedule">
@@ -65,7 +65,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				</div>
 				<div class="b-top-content-block b-top-auth">
 					<a href="#" class="icon-rub-round"><b>Купить оптом</b></a>
-					<a href="#" class="dashed">Войти</a>
+					<a href="#b-popup-auth" class="dashed">Войти</a>
 				</div>
 				<div class="b-phone b-phone-mobile">
 					<a href="tel:+4959225055" class="phone">+7 (495) 922-50-55</a>
@@ -87,7 +87,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 				</div>
 				<div class="b-phone clearfix">
 					<a href="#" class="phone">+7 (495) 922-50-55</a>
-					<a href="#" class="pink dashed">Заказать звонок</a>
+					<a href="#b-popup-phone" class="pink dashed">Заказать звонок</a>
 				</div>
 				<a href="#" class="b-cart b-mobile-cart">
 					<div class="b-cart-img icon-cart"></div>
@@ -106,7 +106,7 @@ $mobile = (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|
 					</div>
 					<input type="submit" class="b-search-submit" value="">
 				</form>
-				<a href="#" class="dashed">Задать вопрос</a>
+				<a href="#b-popup-question" class="dashed">Задать вопрос</a>
 				<a href="#" class="b-cart">
 					<div class="b-cart-img icon-cart"></div>
 					<div class="b-cart-text">

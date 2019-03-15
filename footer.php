@@ -55,6 +55,22 @@
 </div>
 	<div style="display:none;">
 		<a href="#b-popup-error" class="b-error-link fancy" style="display:none;"></a>
+		<div class="b-popup b-popup-city" id="b-popup-city">
+			<div class="b-popup-h3">Выбор города</div>
+			<form action="kitsend.php" method="POST" id="b-form-city">
+				<div class="b-popup-form">
+					<div class="b-input-string icon-search">
+						<input type="text" class="b-popup-input" placeholder="Где вы находитесь?" name="q">
+					</div>
+					<div class="b-btn-container">
+						<a href="#" class="b-btn b-btn-white ajax">Выбрать</a>
+					</div>
+					<input type="hidden" name="subject" value="Заказ"/>
+					<input type="submit" style="display:none;">
+					<a href="#b-popup-success" class="b-thanks-link fancy" style="display:none;"></a>
+				</div>
+			</form>
+		</div>
 		<div class="b-popup" id="b-popup-1">
 			<h3>Оставьте заявку</h3>
 			<h4>и наши специалисты<br>свяжутся с Вами в ближайшее время</h4>
