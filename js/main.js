@@ -245,6 +245,7 @@ $(document).ready(function(){
         // tabs_slider('b-sale-slider');
         tabs_slider('b-bottom-tabs-slider');
         tabs_slider('b-subcategory-tabs-slick');
+        tabs_slider('b-cabinet-tab-slider');
 
         $('.b-tabs-container').on('afterChange', function(event, slick, currentSlide, nextSlide){
             var current = $(this).find('.slick-current');
@@ -302,6 +303,7 @@ $(document).ready(function(){
 
     $('.b-sort-item select').styler();
     $('.detail-select-block select').styler();
+    $('.b-cart-input select').styler();
 
     $('.sort-icon').on('click', function(){
         $(this).siblings().removeClass('active');
@@ -338,11 +340,34 @@ $(document).ready(function(){
         $('.b-subcategory .b-1-by-3-blocks .b-block-1').css('position', 'unset');
     }
 
+    $('.b-cart-line-red').css('width', $('.b-cart-line-red').attr('data-width'));
+
+    $('.b-change-quantity').on('click', function(){
+        var val = parseInt($(this).parents('.b-order-count-input').find('input').val());
+
+        if ($(this).attr('data-side') == "+") {
+            if (val != 999) {
+                $(this).parents('.b-order-count-input').find('input').val(val+1); 
+            }
+        } else {
+            if (val != 0) {
+                $(this).parents('.b-order-count-input').find('input').val(val-1); 
+            }
+        }
+        return false;
+
+    })
+
+    $('input[name="delivery"]').on('change',function(){
+        var tab = $(this).attr('data-tab');
+        $('.delivery-container').addClass('hide');
+        $('#delivery-container-'+tab).removeClass('hide');
+    });
+
     $(window).resize(function() {
 
         if (isDesktop) {
             wholesale_height();
-            // certificateImg();
         }
         
 
@@ -451,21 +476,21 @@ window.onload = function() {
         });
     }
 
-    var myPlace = new google.maps.LatLng(55.78108,37.5978152);
-    var myOptions = {
-        zoom: 16,
-        center: myPlace,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        disableDefaultUI: true,
-        scrollwheel: false,
-        zoomControl: true
-    }
-    var map = new google.maps.Map(document.getElementById("contacts-map"), myOptions); 
+    // var myPlace = new google.maps.LatLng(55.78108,37.5978152);
+    // var myOptions = {
+    //     zoom: 16,
+    //     center: myPlace,
+    //     mapTypeId: google.maps.MapTypeId.ROADMAP,
+    //     disableDefaultUI: true,
+    //     scrollwheel: false,
+    //     zoomControl: true
+    // }
+    // var map = new google.maps.Map(document.getElementById("contacts-map"), myOptions); 
 
-    var marker = new google.maps.Marker({
-        position: myPlace,
-        map: map,
-        title: "Ярмарка вакансий и стажировок"
-    });
+    // var marker = new google.maps.Marker({
+    //     position: myPlace,
+    //     map: map,
+    //     title: "Ярмарка вакансий и стажировок"
+    // });
     
 };
